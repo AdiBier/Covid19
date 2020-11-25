@@ -1,0 +1,157 @@
+2020-11-15 13:47:29.316 +01:00 [DBG] Hosting starting
+2020-11-15 13:47:29.385 +01:00 [INF] User profile is available. Using 'C:\Users\AdiBi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-11-15 13:47:29.397 +01:00 [DBG] Reading data from file 'C:\Users\AdiBi\AppData\Local\ASP.NET\DataProtection-Keys\key-245fc737-bc74-418c-bb9a-c778f01d16bc.xml'.
+2020-11-15 13:47:29.409 +01:00 [DBG] Found key {245fc737-bc74-418c-bb9a-c778f01d16bc}.
+2020-11-15 13:47:29.421 +01:00 [DBG] Considering key {245fc737-bc74-418c-bb9a-c778f01d16bc} with expiration date 2021-02-13 12:22:27Z as default key.
+2020-11-15 13:47:29.429 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-11-15 13:47:29.434 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2020-11-15 13:47:29.436 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-11-15 13:47:29.440 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2020-11-15 13:47:29.444 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2020-11-15 13:47:29.451 +01:00 [DBG] Using key {245fc737-bc74-418c-bb9a-c778f01d16bc} as the default key.
+2020-11-15 13:47:29.453 +01:00 [DBG] Key ring with default key {245fc737-bc74-418c-bb9a-c778f01d16bc} was loaded during application startup.
+2020-11-15 13:47:29.506 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-11-15 13:47:29.535 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 921B02348E6AA4AA53039D42CCD5B03F51B9EC52)
+2020-11-15 13:47:29.553 +01:00 [INF] Now listening on: https://localhost:5001
+2020-11-15 13:47:29.554 +01:00 [DBG] Loaded hosting startup assembly Covid19
+2020-11-15 13:47:29.555 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-11-15 13:47:29.559 +01:00 [INF] Hosting environment: Development
+2020-11-15 13:47:29.560 +01:00 [INF] Content root path: E:\Workspace studia project\Covid19\Covid19
+2020-11-15 13:47:29.562 +01:00 [DBG] Hosting started
+2020-11-15 13:48:19.768 +01:00 [DBG] Connection id "0HM49CITDO9J1" accepted.
+2020-11-15 13:48:19.772 +01:00 [DBG] Connection id "0HM49CITDO9J1" started.
+2020-11-15 13:48:19.878 +01:00 [INF] Request starting HTTP/1.1 PUT https://localhost:5001/api/patients application/json; charset=utf-8 117
+2020-11-15 13:48:19.883 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-11-15 13:48:19.884 +01:00 [VRB] All hosts are allowed.
+2020-11-15 13:48:19.909 +01:00 [DBG] 1 candidate(s) found for the request path '/api/patients'
+2020-11-15 13:48:19.914 +01:00 [DBG] Endpoint 'Covid19.Controllers.PatientsController.InvalidAction (Covid19)' with route pattern 'api/Patients' is valid for the request path '/api/patients'
+2020-11-15 13:48:19.916 +01:00 [DBG] Request matched endpoint 'Covid19.Controllers.PatientsController.InvalidAction (Covid19)'
+2020-11-15 13:48:19.938 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-11-15 13:48:19.943 +01:00 [INF] Executing endpoint 'Covid19.Controllers.PatientsController.InvalidAction (Covid19)'
+2020-11-15 13:48:19.953 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2020-11-15 13:48:19.989 +01:00 [INF] Route matched with {action = "InvalidAction", controller = "Patients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult InvalidAction() on controller Covid19.Controllers.PatientsController (Covid19).
+2020-11-15 13:48:19.994 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-11-15 13:48:19.995 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-11-15 13:48:19.997 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-11-15 13:48:19.999 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-11-15 13:48:20.001 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-11-15 13:48:20.003 +01:00 [DBG] Executing controller factory for controller Covid19.Controllers.PatientsController (Covid19)
+2020-11-15 13:48:20.060 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2020-11-15 13:48:20.086 +01:00 [DBG] Executed controller factory for controller Covid19.Controllers.PatientsController (Covid19)
+2020-11-15 13:48:20.089 +01:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-11-15 13:48:20.091 +01:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-11-15 13:48:20.092 +01:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-11-15 13:48:20.094 +01:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-11-15 13:48:20.101 +01:00 [INF] Executing action method Covid19.Controllers.PatientsController.InvalidAction (Covid19) - Validation state: "Valid"
+2020-11-15 13:48:20.104 +01:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-11-15 13:48:20.106 +01:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-11-15 13:48:20.107 +01:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-11-15 13:48:20.109 +01:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-11-15 13:48:20.116 +01:00 [INF] Executed action Covid19.Controllers.PatientsController.InvalidAction (Covid19) in 109.3807ms
+2020-11-15 13:48:20.119 +01:00 [INF] Executed endpoint 'Covid19.Controllers.PatientsController.InvalidAction (Covid19)'
+2020-11-15 13:48:20.120 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Symulacja błędu aplikacji
+   at Covid19.Controllers.PatientsController.InvalidAction() in E:\Workspace studia project\Covid19\Covid19\Controllers\PatientsController.cs:line 32
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-11-15 13:48:20.168 +01:00 [ERR] HTTP PUT /api/patients responded 500 in 280.4719 ms
+2020-11-15 13:48:20.171 +01:00 [DBG] Connection id "0HM49CITDO9J1" completed keep alive response.
+2020-11-15 13:48:20.173 +01:00 [INF] Request finished in 296.7697ms 500 text/plain
+2020-11-15 13:48:20.175 +01:00 [DBG] Connection id "0HM49CITDO9J1", Request id "0HM49CITDO9J1:00000001": started reading request body.
+2020-11-15 13:48:20.177 +01:00 [DBG] Connection id "0HM49CITDO9J1", Request id "0HM49CITDO9J1:00000001": done reading request body.
+2020-11-15 13:50:20.537 +01:00 [DBG] Connection id "0HM49CITDO9J1" disconnecting.
+2020-11-15 13:50:20.562 +01:00 [DBG] Connection id "0HM49CITDO9J1" stopped.
+2020-11-15 13:50:20.578 +01:00 [DBG] Connection id "0HM49CITDO9J1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-11-15 14:03:04.757 +01:00 [DBG] Hosting starting
+2020-11-15 14:03:04.856 +01:00 [INF] User profile is available. Using 'C:\Users\AdiBi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-11-15 14:03:04.868 +01:00 [DBG] Reading data from file 'C:\Users\AdiBi\AppData\Local\ASP.NET\DataProtection-Keys\key-245fc737-bc74-418c-bb9a-c778f01d16bc.xml'.
+2020-11-15 14:03:04.881 +01:00 [DBG] Found key {245fc737-bc74-418c-bb9a-c778f01d16bc}.
+2020-11-15 14:03:04.894 +01:00 [DBG] Considering key {245fc737-bc74-418c-bb9a-c778f01d16bc} with expiration date 2021-02-13 12:22:27Z as default key.
+2020-11-15 14:03:04.903 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-11-15 14:03:04.908 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2020-11-15 14:03:04.911 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-11-15 14:03:04.914 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2020-11-15 14:03:04.918 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2020-11-15 14:03:04.922 +01:00 [DBG] Using key {245fc737-bc74-418c-bb9a-c778f01d16bc} as the default key.
+2020-11-15 14:03:04.925 +01:00 [DBG] Key ring with default key {245fc737-bc74-418c-bb9a-c778f01d16bc} was loaded during application startup.
+2020-11-15 14:03:05.287 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-11-15 14:03:05.315 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 921B02348E6AA4AA53039D42CCD5B03F51B9EC52)
+2020-11-15 14:03:05.323 +01:00 [INF] Now listening on: https://localhost:5001
+2020-11-15 14:03:05.325 +01:00 [DBG] Loaded hosting startup assembly Covid19
+2020-11-15 14:03:05.325 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-11-15 14:03:05.326 +01:00 [INF] Hosting environment: Development
+2020-11-15 14:03:05.327 +01:00 [INF] Content root path: E:\Workspace studia project\Covid19\Covid19
+2020-11-15 14:03:05.328 +01:00 [DBG] Hosting started
+2020-11-15 14:04:12.048 +01:00 [DBG] Connection id "0HM49CRP7D1QE" accepted.
+2020-11-15 14:04:12.052 +01:00 [DBG] Connection id "0HM49CRP7D1QE" started.
+2020-11-15 14:04:12.105 +01:00 [INF] Request starting HTTP/1.1 PUT https://localhost:5001/api/patients application/json; charset=utf-8 115
+2020-11-15 14:04:12.110 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-11-15 14:04:12.111 +01:00 [VRB] All hosts are allowed.
+2020-11-15 14:04:12.139 +01:00 [DBG] 1 candidate(s) found for the request path '/api/patients'
+2020-11-15 14:04:12.144 +01:00 [DBG] Endpoint 'Covid19.Controllers.PatientsController.InvalidAction (Covid19)' with route pattern 'api/Patients' is valid for the request path '/api/patients'
+2020-11-15 14:04:12.146 +01:00 [DBG] Request matched endpoint 'Covid19.Controllers.PatientsController.InvalidAction (Covid19)'
+2020-11-15 14:04:12.166 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-11-15 14:04:12.171 +01:00 [INF] Executing endpoint 'Covid19.Controllers.PatientsController.InvalidAction (Covid19)'
+2020-11-15 14:04:12.180 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2020-11-15 14:04:12.205 +01:00 [INF] Route matched with {action = "InvalidAction", controller = "Patients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult InvalidAction() on controller Covid19.Controllers.PatientsController (Covid19).
+2020-11-15 14:04:12.209 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-11-15 14:04:12.210 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-11-15 14:04:12.213 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-11-15 14:04:12.215 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-11-15 14:04:12.217 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-11-15 14:04:12.220 +01:00 [DBG] Executing controller factory for controller Covid19.Controllers.PatientsController (Covid19)
+2020-11-15 14:04:12.278 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2020-11-15 14:04:12.304 +01:00 [DBG] Executed controller factory for controller Covid19.Controllers.PatientsController (Covid19)
+2020-11-15 14:04:12.308 +01:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-11-15 14:04:12.309 +01:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-11-15 14:04:12.311 +01:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-11-15 14:04:12.312 +01:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-11-15 14:04:12.318 +01:00 [INF] Executing action method Covid19.Controllers.PatientsController.InvalidAction (Covid19) - Validation state: "Valid"
+2020-11-15 14:04:12.325 +01:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-11-15 14:04:12.326 +01:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-11-15 14:04:12.327 +01:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-11-15 14:04:12.329 +01:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-11-15 14:04:12.335 +01:00 [INF] Executed action Covid19.Controllers.PatientsController.InvalidAction (Covid19) in 112.1192ms
+2020-11-15 14:04:12.342 +01:00 [INF] Executed endpoint 'Covid19.Controllers.PatientsController.InvalidAction (Covid19)'
+2020-11-15 14:04:12.343 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Symulacja błędu aplikacji
+   at Covid19.Controllers.PatientsController.InvalidAction() in E:\Workspace studia project\Covid19\Covid19\Controllers\PatientsController.cs:line 32
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-11-15 14:04:12.399 +01:00 [ERR] HTTP PUT /api/patients responded 500 in 284.4564 ms
+2020-11-15 14:04:12.404 +01:00 [DBG] Connection id "0HM49CRP7D1QE" completed keep alive response.
+2020-11-15 14:04:12.406 +01:00 [INF] Request finished in 305.1844ms 500 text/plain
+2020-11-15 14:04:12.437 +01:00 [DBG] Connection id "0HM49CRP7D1QE", Request id "0HM49CRP7D1QE:00000001": started reading request body.
+2020-11-15 14:04:12.440 +01:00 [DBG] Connection id "0HM49CRP7D1QE", Request id "0HM49CRP7D1QE:00000001": done reading request body.
+2020-11-15 14:06:13.308 +01:00 [DBG] Connection id "0HM49CRP7D1QE" disconnecting.
+2020-11-15 14:06:13.321 +01:00 [DBG] Connection id "0HM49CRP7D1QE" stopped.
+2020-11-15 14:06:13.328 +01:00 [DBG] Connection id "0HM49CRP7D1QE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-11-15 14:41:39.323 +01:00 [INF] Application is shutting down...
+2020-11-15 14:41:39.325 +01:00 [DBG] Hosting stopping
+2020-11-15 14:41:39.332 +01:00 [DBG] Hosting stopped

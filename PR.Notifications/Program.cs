@@ -9,7 +9,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Serilog;
 
-namespace Covid19
+namespace PR.Notifications
 {
     public class Program
     {
@@ -38,6 +38,7 @@ namespace Covid19
 
                         loggerConfig.WriteTo.File("log_.txt", rollingInterval: RollingInterval.Day);
                     });
+
                     webBuilder.UseStartup<Startup>();
                 });
     }
