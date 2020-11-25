@@ -7,6 +7,8 @@ using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
+using System;
 
 namespace Covid19.Controllers
 {
@@ -23,13 +25,22 @@ namespace Covid19.Controllers
             _sender = sender;
         }
 
+        [HttpPut]
+        [AllowAnonymous]
+        public IActionResult InvalidAction()
+        {
+            throw new InvalidOperationException("Symulacja błędu aplikacji");
+        }
+
         [HttpGet]
+        [AllowAnonymous]
         public IActionResult GetAll()
         {
             return Ok(_context.Patients.ToList());
         }
 
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> RegisterPatient(Patient patient)
         {
             _context.Patients.Add(patient);
