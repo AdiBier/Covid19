@@ -1,0 +1,1252 @@
+2020-12-13 19:04:42.559 +01:00 [DBG] Hosting starting
+2020-12-13 19:04:42.695 +01:00 [INF] User profile is available. Using 'C:\Users\AdiBi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-13 19:04:42.717 +01:00 [DBG] Reading data from file 'C:\Users\AdiBi\AppData\Local\ASP.NET\DataProtection-Keys\key-245fc737-bc74-418c-bb9a-c778f01d16bc.xml'.
+2020-12-13 19:04:42.762 +01:00 [DBG] Found key {245fc737-bc74-418c-bb9a-c778f01d16bc}.
+2020-12-13 19:04:42.779 +01:00 [DBG] Considering key {245fc737-bc74-418c-bb9a-c778f01d16bc} with expiration date 2021-02-13 12:22:27Z as default key.
+2020-12-13 19:04:42.788 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-13 19:04:42.792 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2020-12-13 19:04:42.795 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-13 19:04:42.801 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2020-12-13 19:04:42.805 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2020-12-13 19:04:42.809 +01:00 [DBG] Using key {245fc737-bc74-418c-bb9a-c778f01d16bc} as the default key.
+2020-12-13 19:04:42.811 +01:00 [DBG] Key ring with default key {245fc737-bc74-418c-bb9a-c778f01d16bc} was loaded during application startup.
+2020-12-13 19:04:43.178 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-12-13 19:04:43.209 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 921B02348E6AA4AA53039D42CCD5B03F51B9EC52)
+2020-12-13 19:04:43.216 +01:00 [INF] Now listening on: https://localhost:5001
+2020-12-13 19:04:43.218 +01:00 [DBG] Loaded hosting startup assembly Covid19
+2020-12-13 19:04:43.219 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-12-13 19:04:43.219 +01:00 [INF] Hosting environment: Development
+2020-12-13 19:04:43.220 +01:00 [INF] Content root path: E:\Workspace studia project\Covid19\Covid19
+2020-12-13 19:04:43.221 +01:00 [DBG] Hosting started
+2020-12-13 19:04:56.250 +01:00 [DBG] Connection id "0HM4VI6CJCGF7" accepted.
+2020-12-13 19:04:56.253 +01:00 [DBG] Connection id "0HM4VI6CJCGF7" started.
+2020-12-13 19:04:56.356 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/patients  
+2020-12-13 19:04:56.362 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-12-13 19:04:56.364 +01:00 [VRB] All hosts are allowed.
+2020-12-13 19:04:56.391 +01:00 [DBG] 1 candidate(s) found for the request path '/api/patients'
+2020-12-13 19:04:56.395 +01:00 [DBG] Endpoint 'Covid19.Controllers.PatientsController.GetAll (Covid19)' with route pattern 'api/Patients' is valid for the request path '/api/patients'
+2020-12-13 19:04:56.399 +01:00 [DBG] Request matched endpoint 'Covid19.Controllers.PatientsController.GetAll (Covid19)'
+2020-12-13 19:04:56.602 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-13 19:04:56.607 +01:00 [INF] Executing endpoint 'Covid19.Controllers.PatientsController.GetAll (Covid19)'
+2020-12-13 19:04:56.618 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2020-12-13 19:04:56.672 +01:00 [INF] Route matched with {action = "GetAll", controller = "Patients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller Covid19.Controllers.PatientsController (Covid19).
+2020-12-13 19:04:56.676 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-12-13 19:04:56.677 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-12-13 19:04:56.679 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-12-13 19:04:56.683 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-12-13 19:04:56.685 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-12-13 19:04:56.687 +01:00 [DBG] Executing controller factory for controller Covid19.Controllers.PatientsController (Covid19)
+2020-12-13 19:04:56.964 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2020-12-13 19:04:57.085 +01:00 [DBG] Executed controller factory for controller Covid19.Controllers.PatientsController (Covid19)
+2020-12-13 19:04:57.088 +01:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 19:04:57.091 +01:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 19:04:57.094 +01:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 19:04:57.097 +01:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 19:04:57.104 +01:00 [INF] Executing action method Covid19.Controllers.PatientsController.GetAll (Covid19) - Validation state: "Valid"
+2020-12-13 19:04:57.439 +01:00 [INF] Entity Framework Core 3.1.8 initialized 'DpDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-12-13 19:04:57.567 +01:00 [DBG] queryContext => new QueryingEnumerable<Patient>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, Patient>, 
+    Covid19.Model.DpDataContext, 
+    null
+)
+2020-12-13 19:04:57.590 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-12-13 19:04:57.712 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (118ms).
+2020-12-13 19:04:57.719 +01:00 [DBG] Opening connection to database 'dp104' on server 'tcp:dp104bierkat.database.windows.net,1433'.
+2020-12-13 19:04:58.271 +01:00 [DBG] Opened connection to database 'dp104' on server 'tcp:dp104bierkat.database.windows.net,1433'.
+2020-12-13 19:04:58.282 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Age], [p].[DateOfThePositiveTest], [p].[Email], [p].[FirstName], [p].[Surname]
+FROM [Patients] AS [p]
+2020-12-13 19:04:58.365 +01:00 [INF] Executed DbCommand (84ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Age], [p].[DateOfThePositiveTest], [p].[Email], [p].[FirstName], [p].[Surname]
+FROM [Patients] AS [p]
+2020-12-13 19:04:58.399 +01:00 [DBG] Context 'DpDataContext' started tracking 'Patient' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 19:04:58.422 +01:00 [DBG] Context 'DpDataContext' started tracking 'Patient' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 19:04:58.426 +01:00 [DBG] Context 'DpDataContext' started tracking 'Patient' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 19:04:58.428 +01:00 [DBG] Context 'DpDataContext' started tracking 'Patient' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 19:04:58.430 +01:00 [DBG] Context 'DpDataContext' started tracking 'Patient' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 19:04:58.433 +01:00 [DBG] Context 'DpDataContext' started tracking 'Patient' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 19:04:58.438 +01:00 [DBG] A data reader was disposed.
+2020-12-13 19:04:58.444 +01:00 [DBG] Closing connection to database 'dp104' on server 'tcp:dp104bierkat.database.windows.net,1433'.
+2020-12-13 19:04:58.450 +01:00 [DBG] Closed connection to database 'dp104' on server 'tcp:dp104bierkat.database.windows.net,1433'.
+2020-12-13 19:04:58.458 +01:00 [INF] Executed action method Covid19.Controllers.PatientsController.GetAll (Covid19), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1345.62ms.
+2020-12-13 19:04:58.462 +01:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 19:04:58.464 +01:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 19:04:58.466 +01:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 19:04:58.467 +01:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 19:04:58.469 +01:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 19:04:58.473 +01:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 19:04:58.475 +01:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-13 19:04:58.477 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-12-13 19:04:58.481 +01:00 [DBG] No information found on request to perform content negotiation.
+2020-12-13 19:04:58.482 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-12-13 19:04:58.483 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-12-13 19:04:58.484 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-12-13 19:04:58.486 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Covid19.Model.Patient, Covid19, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-12-13 19:04:58.514 +01:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-13 19:04:58.516 +01:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 19:04:58.518 +01:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 19:04:58.525 +01:00 [INF] Executed action Covid19.Controllers.PatientsController.GetAll (Covid19) in 1835.3117ms
+2020-12-13 19:04:58.528 +01:00 [INF] Executed endpoint 'Covid19.Controllers.PatientsController.GetAll (Covid19)'
+2020-12-13 19:04:58.531 +01:00 [INF] HTTP GET /api/patients responded 200 in 2163.9297 ms
+2020-12-13 19:04:58.534 +01:00 [DBG] Connection id "0HM4VI6CJCGF7" completed keep alive response.
+2020-12-13 19:04:58.539 +01:00 [DBG] 'DpDataContext' disposed.
+2020-12-13 19:04:58.543 +01:00 [INF] Request finished in 2191.0307ms 200 application/json; charset=utf-8
+2020-12-13 19:05:15.259 +01:00 [DBG] Connection id "0HM4VI6CJCGF8" received FIN.
+2020-12-13 19:05:15.259 +01:00 [DBG] Connection id "0HM4VI6CJCGF8" accepted.
+2020-12-13 19:05:15.262 +01:00 [DBG] Connection id "0HM4VI6CJCGF8" started.
+2020-12-13 19:05:15.263 +01:00 [DBG] Connection id "0HM4VI6CJCGF9" accepted.
+2020-12-13 19:05:15.266 +01:00 [DBG] Connection id "0HM4VI6CJCGF9" started.
+2020-12-13 19:05:15.275 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/patients  
+2020-12-13 19:05:15.277 +01:00 [VRB] All hosts are allowed.
+2020-12-13 19:05:15.279 +01:00 [DBG] 1 candidate(s) found for the request path '/api/patients'
+2020-12-13 19:05:15.280 +01:00 [DBG] Endpoint 'Covid19.Controllers.PatientsController.GetAll (Covid19)' with route pattern 'api/Patients' is valid for the request path '/api/patients'
+2020-12-13 19:05:15.283 +01:00 [DBG] Request matched endpoint 'Covid19.Controllers.PatientsController.GetAll (Covid19)'
+2020-12-13 19:05:15.284 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-13 19:05:15.286 +01:00 [INF] Executing endpoint 'Covid19.Controllers.PatientsController.GetAll (Covid19)'
+2020-12-13 19:05:15.287 +01:00 [INF] Route matched with {action = "GetAll", controller = "Patients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller Covid19.Controllers.PatientsController (Covid19).
+2020-12-13 19:05:15.294 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-12-13 19:05:15.297 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-12-13 19:05:15.299 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-12-13 19:05:15.303 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-12-13 19:05:15.306 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-12-13 19:05:15.308 +01:00 [DBG] Executing controller factory for controller Covid19.Controllers.PatientsController (Covid19)
+2020-12-13 19:05:15.310 +01:00 [DBG] Executed controller factory for controller Covid19.Controllers.PatientsController (Covid19)
+2020-12-13 19:05:15.311 +01:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 19:05:15.313 +01:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 19:05:15.316 +01:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 19:05:15.318 +01:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 19:05:15.267 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessAuthentication(LazyAsyncResult lazyResult, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.BeginAuthenticateAsServer(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken, AsyncCallback asyncCallback, Object asyncState)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_0(SslServerAuthenticationOptions arg1, CancellationToken arg2, AsyncCallback callback, Object state)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl[TArg1,TArg2](Func`5 beginMethod, Func`2 endFunction, Action`1 endAction, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state)
+   at System.Net.Security.SslStream.AuthenticateAsServerAsync(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2020-12-13 19:05:15.321 +01:00 [INF] Executing action method Covid19.Controllers.PatientsController.GetAll (Covid19) - Validation state: "Valid"
+2020-12-13 19:05:15.337 +01:00 [DBG] Connection id "0HM4VI6CJCGF8" stopped.
+2020-12-13 19:05:15.339 +01:00 [DBG] Connection id "0HM4VI6CJCGF8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-12-13 19:05:15.360 +01:00 [INF] Entity Framework Core 3.1.8 initialized 'DpDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-12-13 19:05:15.363 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-12-13 19:05:15.365 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2020-12-13 19:05:15.368 +01:00 [DBG] Opening connection to database 'dp104' on server 'tcp:dp104bierkat.database.windows.net,1433'.
+2020-12-13 19:05:15.370 +01:00 [DBG] Opened connection to database 'dp104' on server 'tcp:dp104bierkat.database.windows.net,1433'.
+2020-12-13 19:05:15.371 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Age], [p].[DateOfThePositiveTest], [p].[Email], [p].[FirstName], [p].[Surname]
+FROM [Patients] AS [p]
+2020-12-13 19:05:15.398 +01:00 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Age], [p].[DateOfThePositiveTest], [p].[Email], [p].[FirstName], [p].[Surname]
+FROM [Patients] AS [p]
+2020-12-13 19:05:15.402 +01:00 [DBG] Context 'DpDataContext' started tracking 'Patient' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 19:05:15.403 +01:00 [DBG] Context 'DpDataContext' started tracking 'Patient' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 19:05:15.405 +01:00 [DBG] Context 'DpDataContext' started tracking 'Patient' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 19:05:15.407 +01:00 [DBG] Context 'DpDataContext' started tracking 'Patient' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 19:05:15.408 +01:00 [DBG] Context 'DpDataContext' started tracking 'Patient' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 19:05:15.410 +01:00 [DBG] Context 'DpDataContext' started tracking 'Patient' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 19:05:15.412 +01:00 [DBG] A data reader was disposed.
+2020-12-13 19:05:15.416 +01:00 [DBG] Closing connection to database 'dp104' on server 'tcp:dp104bierkat.database.windows.net,1433'.
+2020-12-13 19:05:15.417 +01:00 [DBG] Closed connection to database 'dp104' on server 'tcp:dp104bierkat.database.windows.net,1433'.
+2020-12-13 19:05:15.418 +01:00 [INF] Executed action method Covid19.Controllers.PatientsController.GetAll (Covid19), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 85.3089ms.
+2020-12-13 19:05:15.420 +01:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 19:05:15.422 +01:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 19:05:15.424 +01:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 19:05:15.426 +01:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 19:05:15.431 +01:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 19:05:15.433 +01:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 19:05:15.435 +01:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-13 19:05:15.436 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-12-13 19:05:15.439 +01:00 [DBG] No information found on request to perform content negotiation.
+2020-12-13 19:05:15.440 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-12-13 19:05:15.441 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-12-13 19:05:15.442 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-12-13 19:05:15.449 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Covid19.Model.Patient, Covid19, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-12-13 19:05:15.452 +01:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-13 19:05:15.453 +01:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 19:05:15.456 +01:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 19:05:15.462 +01:00 [INF] Executed action Covid19.Controllers.PatientsController.GetAll (Covid19) in 153.7217ms
+2020-12-13 19:05:15.466 +01:00 [INF] Executed endpoint 'Covid19.Controllers.PatientsController.GetAll (Covid19)'
+2020-12-13 19:05:15.468 +01:00 [INF] HTTP GET /api/patients responded 200 in 190.4796 ms
+2020-12-13 19:05:15.471 +01:00 [DBG] Connection id "0HM4VI6CJCGF9" completed keep alive response.
+2020-12-13 19:05:15.472 +01:00 [DBG] 'DpDataContext' disposed.
+2020-12-13 19:05:15.474 +01:00 [INF] Request finished in 198.6868ms 200 application/json; charset=utf-8
+2020-12-13 19:06:44.715 +01:00 [DBG] Connection id "0HM4VI6CJCGF7" reset.
+2020-12-13 19:06:44.718 +01:00 [DBG] Connection id "0HM4VI6CJCGF7" sending FIN because: "The client closed the connection."
+2020-12-13 19:06:44.719 +01:00 [DBG] Connection id "0HM4VI6CJCGF7" disconnecting.
+2020-12-13 19:06:44.731 +01:00 [DBG] Connection id "0HM4VI6CJCGF7" stopped.
+2020-12-13 19:06:47.167 +01:00 [INF] Application is shutting down...
+2020-12-13 19:06:47.168 +01:00 [DBG] Hosting stopping
+2020-12-13 19:06:47.173 +01:00 [DBG] Connection id "0HM4VI6CJCGF9" disconnecting.
+2020-12-13 19:06:47.175 +01:00 [DBG] Connection id "0HM4VI6CJCGF9" stopped.
+2020-12-13 19:06:47.176 +01:00 [DBG] Connection id "0HM4VI6CJCGF9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-12-13 19:06:47.181 +01:00 [DBG] Hosting stopped
+2020-12-13 20:06:50.051 +01:00 [DBG] Hosting starting
+2020-12-13 20:06:50.178 +01:00 [INF] User profile is available. Using 'C:\Users\AdiBi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-13 20:06:50.191 +01:00 [DBG] Reading data from file 'C:\Users\AdiBi\AppData\Local\ASP.NET\DataProtection-Keys\key-245fc737-bc74-418c-bb9a-c778f01d16bc.xml'.
+2020-12-13 20:06:50.230 +01:00 [DBG] Found key {245fc737-bc74-418c-bb9a-c778f01d16bc}.
+2020-12-13 20:06:50.244 +01:00 [DBG] Considering key {245fc737-bc74-418c-bb9a-c778f01d16bc} with expiration date 2021-02-13 12:22:27Z as default key.
+2020-12-13 20:06:50.253 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-13 20:06:50.257 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2020-12-13 20:06:50.259 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-13 20:06:50.264 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2020-12-13 20:06:50.268 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2020-12-13 20:06:50.274 +01:00 [DBG] Using key {245fc737-bc74-418c-bb9a-c778f01d16bc} as the default key.
+2020-12-13 20:06:50.277 +01:00 [DBG] Key ring with default key {245fc737-bc74-418c-bb9a-c778f01d16bc} was loaded during application startup.
+2020-12-13 20:06:50.656 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-12-13 20:06:50.702 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 921B02348E6AA4AA53039D42CCD5B03F51B9EC52)
+2020-12-13 20:06:50.709 +01:00 [INF] Now listening on: https://localhost:5001
+2020-12-13 20:06:50.711 +01:00 [DBG] Loaded hosting startup assembly Covid19
+2020-12-13 20:06:50.713 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-12-13 20:06:50.713 +01:00 [INF] Hosting environment: Development
+2020-12-13 20:06:50.715 +01:00 [INF] Content root path: E:\Workspace studia project\Covid19\Covid19
+2020-12-13 20:06:50.716 +01:00 [DBG] Hosting started
+2020-12-13 20:07:02.488 +01:00 [DBG] Connection id "0HM4VJ933HT3N" accepted.
+2020-12-13 20:07:02.491 +01:00 [DBG] Connection id "0HM4VJ933HT3N" started.
+2020-12-13 20:07:02.602 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/patients  
+2020-12-13 20:07:02.607 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-12-13 20:07:02.608 +01:00 [VRB] All hosts are allowed.
+2020-12-13 20:07:02.634 +01:00 [DBG] 1 candidate(s) found for the request path '/api/patients'
+2020-12-13 20:07:02.639 +01:00 [DBG] Endpoint 'Covid19.Controllers.PatientsController.GetAll (Covid19)' with route pattern 'api/Patients' is valid for the request path '/api/patients'
+2020-12-13 20:07:02.642 +01:00 [DBG] Request matched endpoint 'Covid19.Controllers.PatientsController.GetAll (Covid19)'
+2020-12-13 20:07:02.698 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-13 20:07:02.702 +01:00 [INF] Executing endpoint 'Covid19.Controllers.PatientsController.GetAll (Covid19)'
+2020-12-13 20:07:02.713 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2020-12-13 20:07:02.765 +01:00 [INF] Route matched with {action = "GetAll", controller = "Patients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller Covid19.Controllers.PatientsController (Covid19).
+2020-12-13 20:07:02.771 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-12-13 20:07:02.772 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-12-13 20:07:02.774 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-12-13 20:07:02.776 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-12-13 20:07:02.778 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-12-13 20:07:02.780 +01:00 [DBG] Executing controller factory for controller Covid19.Controllers.PatientsController (Covid19)
+2020-12-13 20:07:02.955 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2020-12-13 20:07:03.009 +01:00 [DBG] Executed controller factory for controller Covid19.Controllers.PatientsController (Covid19)
+2020-12-13 20:07:03.013 +01:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 20:07:03.015 +01:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 20:07:03.017 +01:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 20:07:03.019 +01:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 20:07:03.026 +01:00 [INF] Executing action method Covid19.Controllers.PatientsController.GetAll (Covid19) - Validation state: "Valid"
+2020-12-13 20:07:03.360 +01:00 [INF] Entity Framework Core 3.1.8 initialized 'DpDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-12-13 20:07:03.484 +01:00 [DBG] queryContext => new QueryingEnumerable<Patient>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, Patient>, 
+    Covid19.Model.DpDataContext, 
+    null
+)
+2020-12-13 20:07:03.510 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-12-13 20:07:03.602 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (88ms).
+2020-12-13 20:07:03.608 +01:00 [DBG] Opening connection to database 'movies' on server 'tcp:dp104bierkat.database.windows.net,1433'.
+2020-12-13 20:07:04.073 +01:00 [DBG] Opened connection to database 'movies' on server 'tcp:dp104bierkat.database.windows.net,1433'.
+2020-12-13 20:07:04.082 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Age], [p].[DateOfThePositiveTest], [p].[Email], [p].[FirstName], [p].[Surname]
+FROM [Patients] AS [p]
+2020-12-13 20:07:04.226 +01:00 [ERR] Failed executing DbCommand (145ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Age], [p].[DateOfThePositiveTest], [p].[Email], [p].[FirstName], [p].[Surname]
+FROM [Patients] AS [p]
+2020-12-13 20:07:04.233 +01:00 [DBG] Closing connection to database 'movies' on server 'tcp:dp104bierkat.database.windows.net,1433'.
+2020-12-13 20:07:04.239 +01:00 [DBG] Closed connection to database 'movies' on server 'tcp:dp104bierkat.database.windows.net,1433'.
+2020-12-13 20:07:04.244 +01:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Covid19.Model.DpDataContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Patients'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:801432ef-68fa-488a-8465-18e0fe054c28
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Patients'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:801432ef-68fa-488a-8465-18e0fe054c28
+Error Number:208,State:1,Class:16
+2020-12-13 20:07:04.282 +01:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 20:07:04.284 +01:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 20:07:04.286 +01:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 20:07:04.288 +01:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 20:07:04.293 +01:00 [INF] Executed action Covid19.Controllers.PatientsController.GetAll (Covid19) in 1509.9332ms
+2020-12-13 20:07:04.297 +01:00 [INF] Executed endpoint 'Covid19.Controllers.PatientsController.GetAll (Covid19)'
+2020-12-13 20:07:04.299 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Patients'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Covid19.Controllers.PatientsController.GetAll() in E:\Workspace studia project\Covid19\Covid19\Controllers\PatientsController.cs:line 39
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:801432ef-68fa-488a-8465-18e0fe054c28
+Error Number:208,State:1,Class:16
+2020-12-13 20:07:04.364 +01:00 [ERR] HTTP GET /api/patients responded 500 in 1752.6167 ms
+2020-12-13 20:07:04.366 +01:00 [DBG] Connection id "0HM4VJ933HT3N" completed keep alive response.
+2020-12-13 20:07:04.369 +01:00 [DBG] 'DpDataContext' disposed.
+2020-12-13 20:07:04.372 +01:00 [INF] Request finished in 1774.4011ms 500 text/plain
+2020-12-13 20:07:06.938 +01:00 [DBG] Connection id "0HM4VJ933HT3N" reset.
+2020-12-13 20:07:06.942 +01:00 [DBG] Connection id "0HM4VJ933HT3N" sending FIN because: "The client closed the connection."
+2020-12-13 20:07:06.944 +01:00 [DBG] Connection id "0HM4VJ933HT3N" disconnecting.
+2020-12-13 20:07:06.948 +01:00 [DBG] Connection id "0HM4VJ933HT3N" stopped.
+2020-12-13 20:07:33.205 +01:00 [INF] Application is shutting down...
+2020-12-13 20:07:33.205 +01:00 [DBG] Hosting stopping
+2020-12-13 20:07:33.215 +01:00 [DBG] Hosting stopped
+2020-12-13 20:08:23.539 +01:00 [DBG] Hosting starting
+2020-12-13 20:08:23.646 +01:00 [INF] User profile is available. Using 'C:\Users\AdiBi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-13 20:08:23.658 +01:00 [DBG] Reading data from file 'C:\Users\AdiBi\AppData\Local\ASP.NET\DataProtection-Keys\key-245fc737-bc74-418c-bb9a-c778f01d16bc.xml'.
+2020-12-13 20:08:23.671 +01:00 [DBG] Found key {245fc737-bc74-418c-bb9a-c778f01d16bc}.
+2020-12-13 20:08:23.682 +01:00 [DBG] Considering key {245fc737-bc74-418c-bb9a-c778f01d16bc} with expiration date 2021-02-13 12:22:27Z as default key.
+2020-12-13 20:08:23.692 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-13 20:08:23.696 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2020-12-13 20:08:23.699 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-13 20:08:23.704 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2020-12-13 20:08:23.708 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2020-12-13 20:08:23.711 +01:00 [DBG] Using key {245fc737-bc74-418c-bb9a-c778f01d16bc} as the default key.
+2020-12-13 20:08:23.712 +01:00 [DBG] Key ring with default key {245fc737-bc74-418c-bb9a-c778f01d16bc} was loaded during application startup.
+2020-12-13 20:08:23.955 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-12-13 20:08:23.988 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 921B02348E6AA4AA53039D42CCD5B03F51B9EC52)
+2020-12-13 20:08:23.995 +01:00 [INF] Now listening on: https://localhost:5001
+2020-12-13 20:08:23.999 +01:00 [DBG] Loaded hosting startup assembly Covid19
+2020-12-13 20:08:24.002 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-12-13 20:08:24.003 +01:00 [INF] Hosting environment: Development
+2020-12-13 20:08:24.004 +01:00 [INF] Content root path: E:\Workspace studia project\Covid19\Covid19
+2020-12-13 20:08:24.005 +01:00 [DBG] Hosting started
+2020-12-13 20:08:29.021 +01:00 [DBG] Connection id "0HM4VJ9SSQTLN" received FIN.
+2020-12-13 20:08:29.032 +01:00 [DBG] Connection id "0HM4VJ9SSQTLN" accepted.
+2020-12-13 20:08:29.035 +01:00 [DBG] Connection id "0HM4VJ9SSQTLN" started.
+2020-12-13 20:08:29.036 +01:00 [DBG] Connection id "0HM4VJ9SSQTLO" accepted.
+2020-12-13 20:08:29.037 +01:00 [DBG] Connection id "0HM4VJ9SSQTLO" started.
+2020-12-13 20:08:29.042 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessAuthentication(LazyAsyncResult lazyResult, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.BeginAuthenticateAsServer(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken, AsyncCallback asyncCallback, Object asyncState)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_0(SslServerAuthenticationOptions arg1, CancellationToken arg2, AsyncCallback callback, Object state)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl[TArg1,TArg2](Func`5 beginMethod, Func`2 endFunction, Action`1 endAction, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state)
+   at System.Net.Security.SslStream.AuthenticateAsServerAsync(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2020-12-13 20:08:29.079 +01:00 [DBG] Connection id "0HM4VJ9SSQTLN" stopped.
+2020-12-13 20:08:29.082 +01:00 [DBG] Connection id "0HM4VJ9SSQTLN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-12-13 20:08:29.094 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/patients  
+2020-12-13 20:08:29.097 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-12-13 20:08:29.098 +01:00 [VRB] All hosts are allowed.
+2020-12-13 20:08:29.125 +01:00 [DBG] 1 candidate(s) found for the request path '/api/patients'
+2020-12-13 20:08:29.128 +01:00 [DBG] Endpoint 'Covid19.Controllers.PatientsController.GetAll (Covid19)' with route pattern 'api/Patients' is valid for the request path '/api/patients'
+2020-12-13 20:08:29.131 +01:00 [DBG] Request matched endpoint 'Covid19.Controllers.PatientsController.GetAll (Covid19)'
+2020-12-13 20:08:29.152 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-13 20:08:29.154 +01:00 [INF] Executing endpoint 'Covid19.Controllers.PatientsController.GetAll (Covid19)'
+2020-12-13 20:08:29.162 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2020-12-13 20:08:29.197 +01:00 [INF] Route matched with {action = "GetAll", controller = "Patients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller Covid19.Controllers.PatientsController (Covid19).
+2020-12-13 20:08:29.201 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-12-13 20:08:29.203 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-12-13 20:08:29.204 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-12-13 20:08:29.206 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-12-13 20:08:29.208 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-12-13 20:08:29.210 +01:00 [DBG] Executing controller factory for controller Covid19.Controllers.PatientsController (Covid19)
+2020-12-13 20:08:29.279 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2020-12-13 20:08:29.306 +01:00 [DBG] Executed controller factory for controller Covid19.Controllers.PatientsController (Covid19)
+2020-12-13 20:08:29.309 +01:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 20:08:29.311 +01:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 20:08:29.312 +01:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 20:08:29.314 +01:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 20:08:29.324 +01:00 [INF] Executing action method Covid19.Controllers.PatientsController.GetAll (Covid19) - Validation state: "Valid"
+2020-12-13 20:08:29.635 +01:00 [INF] Entity Framework Core 3.1.8 initialized 'DpDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-12-13 20:08:29.754 +01:00 [DBG] queryContext => new QueryingEnumerable<Patient>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, Patient>, 
+    Covid19.Model.DpDataContext, 
+    null
+)
+2020-12-13 20:08:29.776 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-12-13 20:08:29.805 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (25ms).
+2020-12-13 20:08:29.812 +01:00 [DBG] Opening connection to database 'movies' on server 'tcp:dp104bierkat.database.windows.net,1433'.
+2020-12-13 20:08:30.149 +01:00 [DBG] Opened connection to database 'movies' on server 'tcp:dp104bierkat.database.windows.net,1433'.
+2020-12-13 20:08:30.158 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Age], [p].[DateOfThePositiveTest], [p].[Email], [p].[FirstName], [p].[Surname]
+FROM [Patients] AS [p]
+2020-12-13 20:08:30.238 +01:00 [ERR] Failed executing DbCommand (80ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Age], [p].[DateOfThePositiveTest], [p].[Email], [p].[FirstName], [p].[Surname]
+FROM [Patients] AS [p]
+2020-12-13 20:08:30.245 +01:00 [DBG] Closing connection to database 'movies' on server 'tcp:dp104bierkat.database.windows.net,1433'.
+2020-12-13 20:08:30.253 +01:00 [DBG] Closed connection to database 'movies' on server 'tcp:dp104bierkat.database.windows.net,1433'.
+2020-12-13 20:08:30.258 +01:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Covid19.Model.DpDataContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Patients'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:91569626-b1ce-4c8b-990c-a81eb2770fca
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Patients'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:91569626-b1ce-4c8b-990c-a81eb2770fca
+Error Number:208,State:1,Class:16
+2020-12-13 20:08:30.280 +01:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 20:08:30.285 +01:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 20:08:30.287 +01:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 20:08:30.289 +01:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 20:08:30.295 +01:00 [INF] Executed action Covid19.Controllers.PatientsController.GetAll (Covid19) in 1081.9842ms
+2020-12-13 20:08:30.301 +01:00 [INF] Executed endpoint 'Covid19.Controllers.PatientsController.GetAll (Covid19)'
+2020-12-13 20:08:30.304 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Patients'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Covid19.Controllers.PatientsController.GetAll() in E:\Workspace studia project\Covid19\Covid19\Controllers\PatientsController.cs:line 39
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:91569626-b1ce-4c8b-990c-a81eb2770fca
+Error Number:208,State:1,Class:16
+2020-12-13 20:08:30.354 +01:00 [ERR] HTTP GET /api/patients responded 500 in 1253.3826 ms
+2020-12-13 20:08:30.358 +01:00 [DBG] Connection id "0HM4VJ9SSQTLO" completed keep alive response.
+2020-12-13 20:08:30.362 +01:00 [DBG] 'DpDataContext' disposed.
+2020-12-13 20:08:30.369 +01:00 [INF] Request finished in 1278.1109ms 500 text/plain
+2020-12-13 20:10:01.593 +01:00 [DBG] Hosting starting
+2020-12-13 20:10:01.689 +01:00 [INF] User profile is available. Using 'C:\Users\AdiBi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-13 20:10:01.702 +01:00 [DBG] Reading data from file 'C:\Users\AdiBi\AppData\Local\ASP.NET\DataProtection-Keys\key-245fc737-bc74-418c-bb9a-c778f01d16bc.xml'.
+2020-12-13 20:10:01.714 +01:00 [DBG] Found key {245fc737-bc74-418c-bb9a-c778f01d16bc}.
+2020-12-13 20:10:01.724 +01:00 [DBG] Considering key {245fc737-bc74-418c-bb9a-c778f01d16bc} with expiration date 2021-02-13 12:22:27Z as default key.
+2020-12-13 20:10:01.734 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-13 20:10:01.739 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2020-12-13 20:10:01.742 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-13 20:10:01.746 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2020-12-13 20:10:01.750 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2020-12-13 20:10:01.754 +01:00 [DBG] Using key {245fc737-bc74-418c-bb9a-c778f01d16bc} as the default key.
+2020-12-13 20:10:01.757 +01:00 [DBG] Key ring with default key {245fc737-bc74-418c-bb9a-c778f01d16bc} was loaded during application startup.
+2020-12-13 20:10:02.008 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-12-13 20:10:02.036 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 921B02348E6AA4AA53039D42CCD5B03F51B9EC52)
+2020-12-13 20:10:02.042 +01:00 [INF] Now listening on: https://localhost:5001
+2020-12-13 20:10:02.044 +01:00 [DBG] Loaded hosting startup assembly Covid19
+2020-12-13 20:10:02.046 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-12-13 20:10:02.047 +01:00 [INF] Hosting environment: Development
+2020-12-13 20:10:02.048 +01:00 [INF] Content root path: E:\Workspace studia project\Covid19\Covid19
+2020-12-13 20:10:02.048 +01:00 [DBG] Hosting started
+2020-12-13 20:10:08.882 +01:00 [DBG] Connection id "0HM4VJAQL62Q6" received FIN.
+2020-12-13 20:10:08.893 +01:00 [DBG] Connection id "0HM4VJAQL62Q6" accepted.
+2020-12-13 20:10:08.896 +01:00 [DBG] Connection id "0HM4VJAQL62Q6" started.
+2020-12-13 20:10:08.898 +01:00 [DBG] Connection id "0HM4VJAQL62Q7" accepted.
+2020-12-13 20:10:08.900 +01:00 [DBG] Connection id "0HM4VJAQL62Q7" started.
+2020-12-13 20:10:08.909 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessAuthentication(LazyAsyncResult lazyResult, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.BeginAuthenticateAsServer(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken, AsyncCallback asyncCallback, Object asyncState)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_0(SslServerAuthenticationOptions arg1, CancellationToken arg2, AsyncCallback callback, Object state)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl[TArg1,TArg2](Func`5 beginMethod, Func`2 endFunction, Action`1 endAction, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state)
+   at System.Net.Security.SslStream.AuthenticateAsServerAsync(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2020-12-13 20:10:08.947 +01:00 [DBG] Connection id "0HM4VJAQL62Q6" stopped.
+2020-12-13 20:10:08.949 +01:00 [DBG] Connection id "0HM4VJAQL62Q6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-12-13 20:10:08.959 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/patients  
+2020-12-13 20:10:08.963 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-12-13 20:10:08.964 +01:00 [VRB] All hosts are allowed.
+2020-12-13 20:10:08.991 +01:00 [DBG] 1 candidate(s) found for the request path '/api/patients'
+2020-12-13 20:10:08.995 +01:00 [DBG] Endpoint 'Covid19.Controllers.PatientsController.GetAll (Covid19)' with route pattern 'api/Patients' is valid for the request path '/api/patients'
+2020-12-13 20:10:08.999 +01:00 [DBG] Request matched endpoint 'Covid19.Controllers.PatientsController.GetAll (Covid19)'
+2020-12-13 20:10:09.019 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-13 20:10:09.022 +01:00 [INF] Executing endpoint 'Covid19.Controllers.PatientsController.GetAll (Covid19)'
+2020-12-13 20:10:09.032 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2020-12-13 20:10:09.068 +01:00 [INF] Route matched with {action = "GetAll", controller = "Patients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller Covid19.Controllers.PatientsController (Covid19).
+2020-12-13 20:10:09.071 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-12-13 20:10:09.074 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-12-13 20:10:09.076 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-12-13 20:10:09.079 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-12-13 20:10:09.081 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-12-13 20:10:09.083 +01:00 [DBG] Executing controller factory for controller Covid19.Controllers.PatientsController (Covid19)
+2020-12-13 20:10:09.149 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2020-12-13 20:10:09.175 +01:00 [DBG] Executed controller factory for controller Covid19.Controllers.PatientsController (Covid19)
+2020-12-13 20:10:09.177 +01:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 20:10:09.181 +01:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 20:10:09.184 +01:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 20:10:09.186 +01:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 20:10:09.191 +01:00 [INF] Executing action method Covid19.Controllers.PatientsController.GetAll (Covid19) - Validation state: "Valid"
+2020-12-13 20:10:09.506 +01:00 [INF] Entity Framework Core 3.1.8 initialized 'DpDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-12-13 20:10:09.623 +01:00 [DBG] queryContext => new QueryingEnumerable<Movie>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, Movie>, 
+    Covid19.Model.DpDataContext, 
+    null
+)
+2020-12-13 20:10:09.647 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-12-13 20:10:09.673 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (23ms).
+2020-12-13 20:10:09.679 +01:00 [DBG] Opening connection to database 'movies' on server 'tcp:dp104bierkat.database.windows.net,1433'.
+2020-12-13 20:10:10.029 +01:00 [DBG] Opened connection to database 'movies' on server 'tcp:dp104bierkat.database.windows.net,1433'.
+2020-12-13 20:10:10.039 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Age], [m].[DateOfThePositiveTest], [m].[Email], [m].[FirstName], [m].[Surname]
+FROM [Movies] AS [m]
+2020-12-13 20:10:10.119 +01:00 [ERR] Failed executing DbCommand (81ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Age], [m].[DateOfThePositiveTest], [m].[Email], [m].[FirstName], [m].[Surname]
+FROM [Movies] AS [m]
+2020-12-13 20:10:10.126 +01:00 [DBG] Closing connection to database 'movies' on server 'tcp:dp104bierkat.database.windows.net,1433'.
+2020-12-13 20:10:10.133 +01:00 [DBG] Closed connection to database 'movies' on server 'tcp:dp104bierkat.database.windows.net,1433'.
+2020-12-13 20:10:10.139 +01:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Covid19.Model.DpDataContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Age'.
+Invalid column name 'DateOfThePositiveTest'.
+Invalid column name 'Email'.
+Invalid column name 'FirstName'.
+Invalid column name 'Surname'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:ebe0def0-32af-4f49-b05d-92ada28db546
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Age'.
+Invalid column name 'DateOfThePositiveTest'.
+Invalid column name 'Email'.
+Invalid column name 'FirstName'.
+Invalid column name 'Surname'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:ebe0def0-32af-4f49-b05d-92ada28db546
+Error Number:207,State:1,Class:16
+2020-12-13 20:10:10.175 +01:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 20:10:10.178 +01:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 20:10:10.181 +01:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 20:10:10.183 +01:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 20:10:10.189 +01:00 [INF] Executed action Covid19.Controllers.PatientsController.GetAll (Covid19) in 1102.2505ms
+2020-12-13 20:10:10.193 +01:00 [INF] Executed endpoint 'Covid19.Controllers.PatientsController.GetAll (Covid19)'
+2020-12-13 20:10:10.195 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Age'.
+Invalid column name 'DateOfThePositiveTest'.
+Invalid column name 'Email'.
+Invalid column name 'FirstName'.
+Invalid column name 'Surname'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Covid19.Controllers.PatientsController.GetAll() in E:\Workspace studia project\Covid19\Covid19\Controllers\PatientsController.cs:line 39
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:ebe0def0-32af-4f49-b05d-92ada28db546
+Error Number:207,State:1,Class:16
+2020-12-13 20:10:10.260 +01:00 [ERR] HTTP GET /api/patients responded 500 in 1292.0469 ms
+2020-12-13 20:10:10.263 +01:00 [DBG] Connection id "0HM4VJAQL62Q7" completed keep alive response.
+2020-12-13 20:10:10.269 +01:00 [DBG] 'DpDataContext' disposed.
+2020-12-13 20:10:10.274 +01:00 [INF] Request finished in 1317.6587ms 500 text/plain
+2020-12-13 20:10:22.453 +01:00 [INF] Application is shutting down...
+2020-12-13 20:10:22.454 +01:00 [DBG] Hosting stopping
+2020-12-13 20:10:22.462 +01:00 [DBG] Connection id "0HM4VJAQL62Q7" disconnecting.
+2020-12-13 20:10:22.467 +01:00 [DBG] Connection id "0HM4VJAQL62Q7" stopped.
+2020-12-13 20:10:22.469 +01:00 [DBG] Connection id "0HM4VJAQL62Q7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-12-13 20:10:22.473 +01:00 [DBG] Hosting stopped
+2020-12-13 20:10:38.937 +01:00 [DBG] Hosting starting
+2020-12-13 20:10:39.036 +01:00 [INF] User profile is available. Using 'C:\Users\AdiBi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-13 20:10:39.047 +01:00 [DBG] Reading data from file 'C:\Users\AdiBi\AppData\Local\ASP.NET\DataProtection-Keys\key-245fc737-bc74-418c-bb9a-c778f01d16bc.xml'.
+2020-12-13 20:10:39.058 +01:00 [DBG] Found key {245fc737-bc74-418c-bb9a-c778f01d16bc}.
+2020-12-13 20:10:39.069 +01:00 [DBG] Considering key {245fc737-bc74-418c-bb9a-c778f01d16bc} with expiration date 2021-02-13 12:22:27Z as default key.
+2020-12-13 20:10:39.078 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-13 20:10:39.083 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2020-12-13 20:10:39.085 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-13 20:10:39.089 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2020-12-13 20:10:39.093 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2020-12-13 20:10:39.097 +01:00 [DBG] Using key {245fc737-bc74-418c-bb9a-c778f01d16bc} as the default key.
+2020-12-13 20:10:39.099 +01:00 [DBG] Key ring with default key {245fc737-bc74-418c-bb9a-c778f01d16bc} was loaded during application startup.
+2020-12-13 20:10:39.357 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-12-13 20:10:39.386 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 921B02348E6AA4AA53039D42CCD5B03F51B9EC52)
+2020-12-13 20:10:39.392 +01:00 [INF] Now listening on: https://localhost:5001
+2020-12-13 20:10:39.394 +01:00 [DBG] Loaded hosting startup assembly Covid19
+2020-12-13 20:10:39.396 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-12-13 20:10:39.397 +01:00 [INF] Hosting environment: Development
+2020-12-13 20:10:39.398 +01:00 [INF] Content root path: E:\Workspace studia project\Covid19\Covid19
+2020-12-13 20:10:39.399 +01:00 [DBG] Hosting started
+2020-12-13 20:10:43.902 +01:00 [DBG] Connection id "0HM4VJB5355E4" received FIN.
+2020-12-13 20:10:43.912 +01:00 [DBG] Connection id "0HM4VJB5355E4" accepted.
+2020-12-13 20:10:43.914 +01:00 [DBG] Connection id "0HM4VJB5355E4" started.
+2020-12-13 20:10:43.916 +01:00 [DBG] Connection id "0HM4VJB5355E5" accepted.
+2020-12-13 20:10:43.918 +01:00 [DBG] Connection id "0HM4VJB5355E5" started.
+2020-12-13 20:10:43.921 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessAuthentication(LazyAsyncResult lazyResult, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.BeginAuthenticateAsServer(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken, AsyncCallback asyncCallback, Object asyncState)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_0(SslServerAuthenticationOptions arg1, CancellationToken arg2, AsyncCallback callback, Object state)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl[TArg1,TArg2](Func`5 beginMethod, Func`2 endFunction, Action`1 endAction, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state)
+   at System.Net.Security.SslStream.AuthenticateAsServerAsync(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2020-12-13 20:10:43.959 +01:00 [DBG] Connection id "0HM4VJB5355E4" stopped.
+2020-12-13 20:10:43.962 +01:00 [DBG] Connection id "0HM4VJB5355E4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-12-13 20:10:43.976 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/patients  
+2020-12-13 20:10:43.979 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-12-13 20:10:43.980 +01:00 [VRB] All hosts are allowed.
+2020-12-13 20:10:44.007 +01:00 [DBG] 1 candidate(s) found for the request path '/api/patients'
+2020-12-13 20:10:44.010 +01:00 [DBG] Endpoint 'Covid19.Controllers.PatientsController.GetAll (Covid19)' with route pattern 'api/Patients' is valid for the request path '/api/patients'
+2020-12-13 20:10:44.013 +01:00 [DBG] Request matched endpoint 'Covid19.Controllers.PatientsController.GetAll (Covid19)'
+2020-12-13 20:10:44.033 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-13 20:10:44.036 +01:00 [INF] Executing endpoint 'Covid19.Controllers.PatientsController.GetAll (Covid19)'
+2020-12-13 20:10:44.044 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2020-12-13 20:10:44.082 +01:00 [INF] Route matched with {action = "GetAll", controller = "Patients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller Covid19.Controllers.PatientsController (Covid19).
+2020-12-13 20:10:44.084 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-12-13 20:10:44.085 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-12-13 20:10:44.087 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-12-13 20:10:44.089 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-12-13 20:10:44.091 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-12-13 20:10:44.093 +01:00 [DBG] Executing controller factory for controller Covid19.Controllers.PatientsController (Covid19)
+2020-12-13 20:10:44.159 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2020-12-13 20:10:44.185 +01:00 [DBG] Executed controller factory for controller Covid19.Controllers.PatientsController (Covid19)
+2020-12-13 20:10:44.186 +01:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 20:10:44.188 +01:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 20:10:44.189 +01:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 20:10:44.191 +01:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 20:10:44.199 +01:00 [INF] Executing action method Covid19.Controllers.PatientsController.GetAll (Covid19) - Validation state: "Valid"
+2020-12-13 20:10:44.505 +01:00 [INF] Entity Framework Core 3.1.8 initialized 'DpDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-12-13 20:10:44.631 +01:00 [DBG] queryContext => new QueryingEnumerable<Movie>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, Movie>, 
+    Covid19.Model.DpDataContext, 
+    null
+)
+2020-12-13 20:10:44.654 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-12-13 20:10:44.682 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (23ms).
+2020-12-13 20:10:44.687 +01:00 [DBG] Opening connection to database 'movies' on server 'tcp:dp104bierkat.database.windows.net,1433'.
+2020-12-13 20:10:45.070 +01:00 [DBG] Opened connection to database 'movies' on server 'tcp:dp104bierkat.database.windows.net,1433'.
+2020-12-13 20:10:45.080 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Description], [m].[Director], [m].[Duration], [m].[Genre], [m].[Premiere], [m].[Title]
+FROM [Movies] AS [m]
+2020-12-13 20:10:45.164 +01:00 [INF] Executed DbCommand (85ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Description], [m].[Director], [m].[Duration], [m].[Genre], [m].[Premiere], [m].[Title]
+FROM [Movies] AS [m]
+2020-12-13 20:10:45.210 +01:00 [DBG] Context 'DpDataContext' started tracking 'Movie' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 20:10:45.237 +01:00 [DBG] A data reader was disposed.
+2020-12-13 20:10:45.242 +01:00 [DBG] Closing connection to database 'movies' on server 'tcp:dp104bierkat.database.windows.net,1433'.
+2020-12-13 20:10:45.250 +01:00 [DBG] Closed connection to database 'movies' on server 'tcp:dp104bierkat.database.windows.net,1433'.
+2020-12-13 20:10:45.256 +01:00 [INF] Executed action method Covid19.Controllers.PatientsController.GetAll (Covid19), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1052.7784ms.
+2020-12-13 20:10:45.261 +01:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 20:10:45.264 +01:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 20:10:45.267 +01:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 20:10:45.271 +01:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 20:10:45.273 +01:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 20:10:45.276 +01:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 20:10:45.279 +01:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-13 20:10:45.282 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-12-13 20:10:45.287 +01:00 [DBG] No information found on request to perform content negotiation.
+2020-12-13 20:10:45.287 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-12-13 20:10:45.291 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-12-13 20:10:45.293 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-12-13 20:10:45.296 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Covid19.Model.Movie, Covid19, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-12-13 20:10:45.325 +01:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-13 20:10:45.329 +01:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 20:10:45.331 +01:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 20:10:45.337 +01:00 [INF] Executed action Covid19.Controllers.PatientsController.GetAll (Covid19) in 1240.3727ms
+2020-12-13 20:10:45.341 +01:00 [INF] Executed endpoint 'Covid19.Controllers.PatientsController.GetAll (Covid19)'
+2020-12-13 20:10:45.344 +01:00 [INF] HTTP GET /api/patients responded 200 in 1360.4255 ms
+2020-12-13 20:10:45.348 +01:00 [DBG] Connection id "0HM4VJB5355E5" completed keep alive response.
+2020-12-13 20:10:45.351 +01:00 [DBG] 'DpDataContext' disposed.
+2020-12-13 20:10:45.357 +01:00 [INF] Request finished in 1384.0936ms 200 application/json; charset=utf-8
+2020-12-13 20:11:35.919 +01:00 [DBG] Connection id "0HM4VJB5355E6" accepted.
+2020-12-13 20:11:35.926 +01:00 [DBG] Connection id "0HM4VJB5355E6" started.
+2020-12-13 20:11:35.998 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/  
+2020-12-13 20:11:36.001 +01:00 [VRB] All hosts are allowed.
+2020-12-13 20:11:36.003 +01:00 [DBG] No candidates found for the request path '/'
+2020-12-13 20:11:36.004 +01:00 [DBG] Request did not match any endpoints
+2020-12-13 20:11:36.007 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-13 20:11:36.009 +01:00 [INF] HTTP GET / responded 404 in 5.9849 ms
+2020-12-13 20:11:36.011 +01:00 [DBG] Connection id "0HM4VJB5355E6" completed keep alive response.
+2020-12-13 20:11:36.013 +01:00 [INF] Request finished in 15.2888ms 404 
+2020-12-13 20:11:36.130 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/  
+2020-12-13 20:11:36.133 +01:00 [VRB] All hosts are allowed.
+2020-12-13 20:11:36.136 +01:00 [DBG] No candidates found for the request path '/'
+2020-12-13 20:11:36.138 +01:00 [DBG] Request did not match any endpoints
+2020-12-13 20:11:36.142 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-13 20:11:36.144 +01:00 [INF] HTTP GET / responded 404 in 8.0391 ms
+2020-12-13 20:11:36.147 +01:00 [DBG] Connection id "0HM4VJB5355E6" completed keep alive response.
+2020-12-13 20:11:36.150 +01:00 [INF] Request finished in 20.0695ms 404 
+2020-12-13 20:11:36.259 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/  
+2020-12-13 20:11:36.264 +01:00 [VRB] All hosts are allowed.
+2020-12-13 20:11:36.271 +01:00 [DBG] No candidates found for the request path '/'
+2020-12-13 20:11:36.283 +01:00 [DBG] Request did not match any endpoints
+2020-12-13 20:11:36.286 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-13 20:11:36.292 +01:00 [INF] HTTP GET / responded 404 in 20.6737 ms
+2020-12-13 20:11:36.295 +01:00 [DBG] Connection id "0HM4VJB5355E6" completed keep alive response.
+2020-12-13 20:11:36.297 +01:00 [INF] Request finished in 38.5833ms 404 
+2020-12-13 20:11:36.398 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/  
+2020-12-13 20:11:36.401 +01:00 [VRB] All hosts are allowed.
+2020-12-13 20:11:36.403 +01:00 [DBG] No candidates found for the request path '/'
+2020-12-13 20:11:36.405 +01:00 [DBG] Request did not match any endpoints
+2020-12-13 20:11:36.406 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-13 20:11:36.408 +01:00 [INF] HTTP GET / responded 404 in 4.7625 ms
+2020-12-13 20:11:36.410 +01:00 [DBG] Connection id "0HM4VJB5355E6" completed keep alive response.
+2020-12-13 20:11:36.412 +01:00 [INF] Request finished in 14.0485ms 404 
+2020-12-13 20:11:36.518 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/  
+2020-12-13 20:11:36.521 +01:00 [VRB] All hosts are allowed.
+2020-12-13 20:11:36.523 +01:00 [DBG] No candidates found for the request path '/'
+2020-12-13 20:11:36.526 +01:00 [DBG] Request did not match any endpoints
+2020-12-13 20:11:36.528 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-13 20:11:36.530 +01:00 [INF] HTTP GET / responded 404 in 6.6186 ms
+2020-12-13 20:11:36.532 +01:00 [DBG] Connection id "0HM4VJB5355E6" completed keep alive response.
+2020-12-13 20:11:36.533 +01:00 [INF] Request finished in 15.1418ms 404 
+2020-12-13 20:11:36.642 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/  
+2020-12-13 20:11:36.643 +01:00 [VRB] All hosts are allowed.
+2020-12-13 20:11:36.645 +01:00 [DBG] No candidates found for the request path '/'
+2020-12-13 20:11:36.648 +01:00 [DBG] Request did not match any endpoints
+2020-12-13 20:11:36.650 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-13 20:11:36.652 +01:00 [INF] HTTP GET / responded 404 in 6.2790 ms
+2020-12-13 20:11:36.654 +01:00 [DBG] Connection id "0HM4VJB5355E6" completed keep alive response.
+2020-12-13 20:11:36.655 +01:00 [INF] Request finished in 12.9216ms 404 
+2020-12-13 20:11:36.705 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/  
+2020-12-13 20:11:36.707 +01:00 [VRB] All hosts are allowed.
+2020-12-13 20:11:36.709 +01:00 [DBG] No candidates found for the request path '/'
+2020-12-13 20:11:36.711 +01:00 [DBG] Request did not match any endpoints
+2020-12-13 20:11:36.712 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-13 20:11:36.713 +01:00 [INF] HTTP GET / responded 404 in 3.5290 ms
+2020-12-13 20:11:36.715 +01:00 [DBG] Connection id "0HM4VJB5355E6" completed keep alive response.
+2020-12-13 20:11:36.716 +01:00 [INF] Request finished in 11.5704ms 404 
+2020-12-13 20:11:36.836 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/  
+2020-12-13 20:11:36.842 +01:00 [VRB] All hosts are allowed.
+2020-12-13 20:11:36.847 +01:00 [DBG] No candidates found for the request path '/'
+2020-12-13 20:11:36.852 +01:00 [DBG] Request did not match any endpoints
+2020-12-13 20:11:36.856 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-13 20:11:36.860 +01:00 [INF] HTTP GET / responded 404 in 13.1962 ms
+2020-12-13 20:11:36.865 +01:00 [DBG] Connection id "0HM4VJB5355E6" completed keep alive response.
+2020-12-13 20:11:36.874 +01:00 [INF] Request finished in 37.8901ms 404 
+2020-12-13 20:11:36.968 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/  
+2020-12-13 20:11:36.972 +01:00 [VRB] All hosts are allowed.
+2020-12-13 20:11:36.976 +01:00 [DBG] No candidates found for the request path '/'
+2020-12-13 20:11:36.980 +01:00 [DBG] Request did not match any endpoints
+2020-12-13 20:11:36.983 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-13 20:11:36.986 +01:00 [INF] HTTP GET / responded 404 in 9.6412 ms
+2020-12-13 20:11:36.995 +01:00 [DBG] Connection id "0HM4VJB5355E6" completed keep alive response.
+2020-12-13 20:11:37.000 +01:00 [INF] Request finished in 31.6002ms 404 
+2020-12-13 20:11:37.097 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/  
+2020-12-13 20:11:37.101 +01:00 [VRB] All hosts are allowed.
+2020-12-13 20:11:37.108 +01:00 [DBG] No candidates found for the request path '/'
+2020-12-13 20:11:37.117 +01:00 [DBG] Request did not match any endpoints
+2020-12-13 20:11:37.123 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-13 20:11:37.127 +01:00 [INF] HTTP GET / responded 404 in 18.7201 ms
+2020-12-13 20:11:37.137 +01:00 [DBG] Connection id "0HM4VJB5355E6" completed keep alive response.
+2020-12-13 20:11:37.143 +01:00 [INF] Request finished in 46.0098ms 404 
+2020-12-13 20:11:37.240 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/  
+2020-12-13 20:11:37.243 +01:00 [VRB] All hosts are allowed.
+2020-12-13 20:11:37.245 +01:00 [DBG] No candidates found for the request path '/'
+2020-12-13 20:11:37.248 +01:00 [DBG] Request did not match any endpoints
+2020-12-13 20:11:37.250 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-13 20:11:37.253 +01:00 [INF] HTTP GET / responded 404 in 8.0365 ms
+2020-12-13 20:11:37.259 +01:00 [DBG] Connection id "0HM4VJB5355E6" completed keep alive response.
+2020-12-13 20:11:37.261 +01:00 [INF] Request finished in 20.8782ms 404 
+2020-12-13 20:11:37.361 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/  
+2020-12-13 20:11:37.363 +01:00 [VRB] All hosts are allowed.
+2020-12-13 20:11:37.365 +01:00 [DBG] No candidates found for the request path '/'
+2020-12-13 20:11:37.367 +01:00 [DBG] Request did not match any endpoints
+2020-12-13 20:11:37.369 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-13 20:11:37.370 +01:00 [INF] HTTP GET / responded 404 in 5.7599 ms
+2020-12-13 20:11:37.373 +01:00 [DBG] Connection id "0HM4VJB5355E6" completed keep alive response.
+2020-12-13 20:11:37.376 +01:00 [INF] Request finished in 15.6816ms 404 
+2020-12-13 20:12:05.932 +01:00 [DBG] Hosting starting
+2020-12-13 20:12:06.037 +01:00 [INF] User profile is available. Using 'C:\Users\AdiBi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-13 20:12:06.048 +01:00 [DBG] Reading data from file 'C:\Users\AdiBi\AppData\Local\ASP.NET\DataProtection-Keys\key-245fc737-bc74-418c-bb9a-c778f01d16bc.xml'.
+2020-12-13 20:12:06.059 +01:00 [DBG] Found key {245fc737-bc74-418c-bb9a-c778f01d16bc}.
+2020-12-13 20:12:06.069 +01:00 [DBG] Considering key {245fc737-bc74-418c-bb9a-c778f01d16bc} with expiration date 2021-02-13 12:22:27Z as default key.
+2020-12-13 20:12:06.078 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-13 20:12:06.081 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2020-12-13 20:12:06.082 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-13 20:12:06.086 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2020-12-13 20:12:06.089 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2020-12-13 20:12:06.094 +01:00 [DBG] Using key {245fc737-bc74-418c-bb9a-c778f01d16bc} as the default key.
+2020-12-13 20:12:06.095 +01:00 [DBG] Key ring with default key {245fc737-bc74-418c-bb9a-c778f01d16bc} was loaded during application startup.
+2020-12-13 20:12:06.369 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-12-13 20:12:06.398 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 921B02348E6AA4AA53039D42CCD5B03F51B9EC52)
+2020-12-13 20:12:06.404 +01:00 [INF] Now listening on: https://localhost:5001
+2020-12-13 20:12:06.408 +01:00 [DBG] Loaded hosting startup assembly Covid19
+2020-12-13 20:12:06.409 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-12-13 20:12:06.411 +01:00 [INF] Hosting environment: Development
+2020-12-13 20:12:06.412 +01:00 [INF] Content root path: E:\Workspace studia project\Covid19\Covid19
+2020-12-13 20:12:06.413 +01:00 [DBG] Hosting started
+2020-12-13 20:12:08.404 +01:00 [DBG] Connection id "0HM4VJBU91436" received FIN.
+2020-12-13 20:12:08.416 +01:00 [DBG] Connection id "0HM4VJBU91436" accepted.
+2020-12-13 20:12:08.418 +01:00 [DBG] Connection id "0HM4VJBU91436" started.
+2020-12-13 20:12:08.420 +01:00 [DBG] Connection id "0HM4VJBU91437" accepted.
+2020-12-13 20:12:08.422 +01:00 [DBG] Connection id "0HM4VJBU91437" started.
+2020-12-13 20:12:08.427 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessAuthentication(LazyAsyncResult lazyResult, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.BeginAuthenticateAsServer(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken, AsyncCallback asyncCallback, Object asyncState)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_0(SslServerAuthenticationOptions arg1, CancellationToken arg2, AsyncCallback callback, Object state)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl[TArg1,TArg2](Func`5 beginMethod, Func`2 endFunction, Action`1 endAction, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state)
+   at System.Net.Security.SslStream.AuthenticateAsServerAsync(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2020-12-13 20:12:08.464 +01:00 [DBG] Connection id "0HM4VJBU91436" stopped.
+2020-12-13 20:12:08.466 +01:00 [DBG] Connection id "0HM4VJBU91436" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-12-13 20:12:08.480 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/patients  
+2020-12-13 20:12:08.483 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-12-13 20:12:08.484 +01:00 [VRB] All hosts are allowed.
+2020-12-13 20:12:08.513 +01:00 [DBG] 1 candidate(s) found for the request path '/api/patients'
+2020-12-13 20:12:08.516 +01:00 [DBG] Endpoint 'Covid19.Controllers.PatientsController.GetAll (Covid19)' with route pattern 'api/Patients' is valid for the request path '/api/patients'
+2020-12-13 20:12:08.520 +01:00 [DBG] Request matched endpoint 'Covid19.Controllers.PatientsController.GetAll (Covid19)'
+2020-12-13 20:12:08.540 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-13 20:12:08.543 +01:00 [INF] Executing endpoint 'Covid19.Controllers.PatientsController.GetAll (Covid19)'
+2020-12-13 20:12:08.552 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2020-12-13 20:12:08.586 +01:00 [INF] Route matched with {action = "GetAll", controller = "Patients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller Covid19.Controllers.PatientsController (Covid19).
+2020-12-13 20:12:08.592 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-12-13 20:12:08.595 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-12-13 20:12:08.598 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-12-13 20:12:08.601 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-12-13 20:12:08.603 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-12-13 20:12:08.606 +01:00 [DBG] Executing controller factory for controller Covid19.Controllers.PatientsController (Covid19)
+2020-12-13 20:12:08.667 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2020-12-13 20:12:08.694 +01:00 [DBG] Executed controller factory for controller Covid19.Controllers.PatientsController (Covid19)
+2020-12-13 20:12:08.696 +01:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 20:12:08.698 +01:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 20:12:08.699 +01:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 20:12:08.701 +01:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 20:12:08.709 +01:00 [INF] Executing action method Covid19.Controllers.PatientsController.GetAll (Covid19) - Validation state: "Valid"
+2020-12-13 20:12:09.016 +01:00 [INF] Entity Framework Core 3.1.8 initialized 'DpDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-12-13 20:12:09.135 +01:00 [DBG] queryContext => new QueryingEnumerable<Movie>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, Movie>, 
+    Covid19.Model.DpDataContext, 
+    null
+)
+2020-12-13 20:12:09.158 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-12-13 20:12:09.184 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (24ms).
+2020-12-13 20:12:09.192 +01:00 [DBG] Opening connection to database 'movies' on server 'tcp:dp104bierkat.database.windows.net,1433'.
+2020-12-13 20:12:09.598 +01:00 [DBG] Opened connection to database 'movies' on server 'tcp:dp104bierkat.database.windows.net,1433'.
+2020-12-13 20:12:09.608 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Description], [m].[Director], [m].[Duration], [m].[Genre], [m].[Premiere], [m].[Title]
+FROM [Movies] AS [m]
+2020-12-13 20:12:09.684 +01:00 [INF] Executed DbCommand (77ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Description], [m].[Director], [m].[Duration], [m].[Genre], [m].[Premiere], [m].[Title]
+FROM [Movies] AS [m]
+2020-12-13 20:12:09.718 +01:00 [DBG] Context 'DpDataContext' started tracking 'Movie' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 20:12:09.747 +01:00 [DBG] A data reader was disposed.
+2020-12-13 20:12:09.751 +01:00 [DBG] Closing connection to database 'movies' on server 'tcp:dp104bierkat.database.windows.net,1433'.
+2020-12-13 20:12:09.758 +01:00 [DBG] Closed connection to database 'movies' on server 'tcp:dp104bierkat.database.windows.net,1433'.
+2020-12-13 20:12:09.765 +01:00 [INF] Executed action method Covid19.Controllers.PatientsController.GetAll (Covid19), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1051.0788ms.
+2020-12-13 20:12:09.770 +01:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 20:12:09.771 +01:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 20:12:09.773 +01:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 20:12:09.778 +01:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 20:12:09.780 +01:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 20:12:09.782 +01:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 20:12:09.784 +01:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-13 20:12:09.786 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-12-13 20:12:09.791 +01:00 [DBG] No information found on request to perform content negotiation.
+2020-12-13 20:12:09.795 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-12-13 20:12:09.796 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-12-13 20:12:09.798 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-12-13 20:12:09.799 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Covid19.Model.Movie, Covid19, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-12-13 20:12:09.815 +01:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-13 20:12:09.817 +01:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 20:12:09.820 +01:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 20:12:09.828 +01:00 [INF] Executed action Covid19.Controllers.PatientsController.GetAll (Covid19) in 1216.2933ms
+2020-12-13 20:12:09.832 +01:00 [INF] Executed endpoint 'Covid19.Controllers.PatientsController.GetAll (Covid19)'
+2020-12-13 20:12:09.834 +01:00 [INF] HTTP GET /api/patients responded 200 in 1346.3497 ms
+2020-12-13 20:12:09.836 +01:00 [DBG] Connection id "0HM4VJBU91437" completed keep alive response.
+2020-12-13 20:12:09.839 +01:00 [DBG] 'DpDataContext' disposed.
+2020-12-13 20:12:09.845 +01:00 [INF] Request finished in 1368.2947ms 200 application/json; charset=utf-8
+2020-12-13 20:12:14.513 +01:00 [INF] Application is shutting down...
+2020-12-13 20:12:14.513 +01:00 [DBG] Hosting stopping
+2020-12-13 20:12:14.522 +01:00 [DBG] Connection id "0HM4VJBU91437" disconnecting.
+2020-12-13 20:12:14.527 +01:00 [DBG] Connection id "0HM4VJBU91437" stopped.
+2020-12-13 20:12:14.529 +01:00 [DBG] Connection id "0HM4VJBU91437" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-12-13 20:12:14.532 +01:00 [DBG] Hosting stopped
+2020-12-13 20:18:55.572 +01:00 [DBG] Hosting starting
+2020-12-13 20:18:55.674 +01:00 [INF] User profile is available. Using 'C:\Users\AdiBi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-13 20:18:55.685 +01:00 [DBG] Reading data from file 'C:\Users\AdiBi\AppData\Local\ASP.NET\DataProtection-Keys\key-245fc737-bc74-418c-bb9a-c778f01d16bc.xml'.
+2020-12-13 20:18:55.697 +01:00 [DBG] Found key {245fc737-bc74-418c-bb9a-c778f01d16bc}.
+2020-12-13 20:18:55.708 +01:00 [DBG] Considering key {245fc737-bc74-418c-bb9a-c778f01d16bc} with expiration date 2021-02-13 12:22:27Z as default key.
+2020-12-13 20:18:55.717 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-13 20:18:55.721 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2020-12-13 20:18:55.722 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-13 20:18:55.728 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2020-12-13 20:18:55.732 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2020-12-13 20:18:55.736 +01:00 [DBG] Using key {245fc737-bc74-418c-bb9a-c778f01d16bc} as the default key.
+2020-12-13 20:18:55.737 +01:00 [DBG] Key ring with default key {245fc737-bc74-418c-bb9a-c778f01d16bc} was loaded during application startup.
+2020-12-13 20:18:56.000 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-12-13 20:18:56.034 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 921B02348E6AA4AA53039D42CCD5B03F51B9EC52)
+2020-12-13 20:18:56.039 +01:00 [INF] Now listening on: https://localhost:5001
+2020-12-13 20:18:56.040 +01:00 [DBG] Loaded hosting startup assembly Covid19
+2020-12-13 20:18:56.041 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-12-13 20:18:56.041 +01:00 [INF] Hosting environment: Development
+2020-12-13 20:18:56.043 +01:00 [INF] Content root path: E:\Workspace studia project\Covid19\Covid19
+2020-12-13 20:18:56.044 +01:00 [DBG] Hosting started
+2020-12-13 20:19:00.603 +01:00 [DBG] Connection id "0HM4VJFP42FEF" received FIN.
+2020-12-13 20:19:00.616 +01:00 [DBG] Connection id "0HM4VJFP42FEF" accepted.
+2020-12-13 20:19:00.619 +01:00 [DBG] Connection id "0HM4VJFP42FEF" started.
+2020-12-13 20:19:00.622 +01:00 [DBG] Connection id "0HM4VJFP42FEG" accepted.
+2020-12-13 20:19:00.624 +01:00 [DBG] Connection id "0HM4VJFP42FEG" started.
+2020-12-13 20:19:00.629 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessAuthentication(LazyAsyncResult lazyResult, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.BeginAuthenticateAsServer(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken, AsyncCallback asyncCallback, Object asyncState)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_0(SslServerAuthenticationOptions arg1, CancellationToken arg2, AsyncCallback callback, Object state)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncImpl[TArg1,TArg2](Func`5 beginMethod, Func`2 endFunction, Action`1 endAction, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state, TaskCreationOptions creationOptions)
+   at System.Threading.Tasks.TaskFactory.FromAsync[TArg1,TArg2](Func`5 beginMethod, Action`1 endMethod, TArg1 arg1, TArg2 arg2, Object state)
+   at System.Net.Security.SslStream.AuthenticateAsServerAsync(SslServerAuthenticationOptions sslServerAuthenticationOptions, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2020-12-13 20:19:00.673 +01:00 [DBG] Connection id "0HM4VJFP42FEF" stopped.
+2020-12-13 20:19:00.675 +01:00 [DBG] Connection id "0HM4VJFP42FEF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-12-13 20:19:00.689 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/patients  
+2020-12-13 20:19:00.694 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-12-13 20:19:00.695 +01:00 [VRB] All hosts are allowed.
+2020-12-13 20:19:00.720 +01:00 [DBG] No candidates found for the request path '/api/patients'
+2020-12-13 20:19:00.721 +01:00 [DBG] Request did not match any endpoints
+2020-12-13 20:19:00.741 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-13 20:19:00.745 +01:00 [INF] HTTP GET /api/patients responded 404 in 45.1325 ms
+2020-12-13 20:19:00.751 +01:00 [DBG] Connection id "0HM4VJFP42FEG" completed keep alive response.
+2020-12-13 20:19:00.753 +01:00 [INF] Request finished in 66.6501ms 404 
+2020-12-13 20:19:02.111 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/patients  
+2020-12-13 20:19:02.114 +01:00 [VRB] All hosts are allowed.
+2020-12-13 20:19:02.116 +01:00 [DBG] No candidates found for the request path '/api/patients'
+2020-12-13 20:19:02.118 +01:00 [DBG] Request did not match any endpoints
+2020-12-13 20:19:02.120 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-13 20:19:02.122 +01:00 [INF] HTTP GET /api/patients responded 404 in 6.4402 ms
+2020-12-13 20:19:02.126 +01:00 [DBG] Connection id "0HM4VJFP42FEG" completed keep alive response.
+2020-12-13 20:19:02.128 +01:00 [INF] Request finished in 16.3284ms 404 
+2020-12-13 20:19:20.050 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/movies  
+2020-12-13 20:19:20.053 +01:00 [VRB] All hosts are allowed.
+2020-12-13 20:19:20.055 +01:00 [DBG] No candidates found for the request path '/api/movies'
+2020-12-13 20:19:20.056 +01:00 [DBG] Request did not match any endpoints
+2020-12-13 20:19:20.059 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-13 20:19:20.061 +01:00 [INF] HTTP GET /api/movies responded 404 in 6.2202 ms
+2020-12-13 20:19:20.063 +01:00 [DBG] Connection id "0HM4VJFP42FEG" completed keep alive response.
+2020-12-13 20:19:20.065 +01:00 [INF] Request finished in 15.2311ms 404 
+2020-12-13 20:19:33.790 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/movies  
+2020-12-13 20:19:33.793 +01:00 [VRB] All hosts are allowed.
+2020-12-13 20:19:33.795 +01:00 [DBG] No candidates found for the request path '/api/movies'
+2020-12-13 20:19:33.797 +01:00 [DBG] Request did not match any endpoints
+2020-12-13 20:19:33.798 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-13 20:19:33.799 +01:00 [INF] HTTP GET /api/movies responded 404 in 4.4045 ms
+2020-12-13 20:19:33.801 +01:00 [DBG] Connection id "0HM4VJFP42FEG" completed keep alive response.
+2020-12-13 20:19:33.802 +01:00 [INF] Request finished in 12.1831ms 404 
+2020-12-13 20:19:39.498 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/movie  
+2020-12-13 20:19:39.501 +01:00 [VRB] All hosts are allowed.
+2020-12-13 20:19:39.508 +01:00 [DBG] 1 candidate(s) found for the request path '/api/movie'
+2020-12-13 20:19:39.514 +01:00 [DBG] Endpoint 'Covid19.Controllers.MovieController.GetAll (Covid19)' with route pattern 'api/Movie' is valid for the request path '/api/movie'
+2020-12-13 20:19:39.518 +01:00 [DBG] Request matched endpoint 'Covid19.Controllers.MovieController.GetAll (Covid19)'
+2020-12-13 20:19:39.519 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-13 20:19:39.520 +01:00 [INF] Executing endpoint 'Covid19.Controllers.MovieController.GetAll (Covid19)'
+2020-12-13 20:19:39.531 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2020-12-13 20:19:39.565 +01:00 [INF] Route matched with {action = "GetAll", controller = "Movie"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller Covid19.Controllers.MovieController (Covid19).
+2020-12-13 20:19:39.568 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-12-13 20:19:39.570 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-12-13 20:19:39.572 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-12-13 20:19:39.575 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-12-13 20:19:39.578 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-12-13 20:19:39.581 +01:00 [DBG] Executing controller factory for controller Covid19.Controllers.MovieController (Covid19)
+2020-12-13 20:19:39.640 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2020-12-13 20:19:39.667 +01:00 [DBG] Executed controller factory for controller Covid19.Controllers.MovieController (Covid19)
+2020-12-13 20:19:39.671 +01:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 20:19:39.673 +01:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 20:19:39.674 +01:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 20:19:39.678 +01:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 20:19:39.685 +01:00 [INF] Executing action method Covid19.Controllers.MovieController.GetAll (Covid19) - Validation state: "Valid"
+2020-12-13 20:19:40.002 +01:00 [INF] Entity Framework Core 3.1.8 initialized 'DpDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-12-13 20:19:40.121 +01:00 [DBG] queryContext => new QueryingEnumerable<Movie>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, Movie>, 
+    Covid19.Model.DpDataContext, 
+    null
+)
+2020-12-13 20:19:40.146 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-12-13 20:19:40.173 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (23ms).
+2020-12-13 20:19:40.181 +01:00 [DBG] Opening connection to database 'movies' on server 'tcp:dp104bierkat.database.windows.net,1433'.
+2020-12-13 20:19:40.567 +01:00 [DBG] Opened connection to database 'movies' on server 'tcp:dp104bierkat.database.windows.net,1433'.
+2020-12-13 20:19:40.578 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Description], [m].[Director], [m].[Duration], [m].[Genre], [m].[Premiere], [m].[Title]
+FROM [Movies] AS [m]
+2020-12-13 20:19:40.637 +01:00 [INF] Executed DbCommand (60ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Description], [m].[Director], [m].[Duration], [m].[Genre], [m].[Premiere], [m].[Title]
+FROM [Movies] AS [m]
+2020-12-13 20:19:40.679 +01:00 [DBG] Context 'DpDataContext' started tracking 'Movie' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 20:19:40.707 +01:00 [DBG] A data reader was disposed.
+2020-12-13 20:19:40.711 +01:00 [DBG] Closing connection to database 'movies' on server 'tcp:dp104bierkat.database.windows.net,1433'.
+2020-12-13 20:19:40.717 +01:00 [DBG] Closed connection to database 'movies' on server 'tcp:dp104bierkat.database.windows.net,1433'.
+2020-12-13 20:19:40.724 +01:00 [INF] Executed action method Covid19.Controllers.MovieController.GetAll (Covid19), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1031.4142ms.
+2020-12-13 20:19:40.726 +01:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 20:19:40.729 +01:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 20:19:40.731 +01:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 20:19:40.732 +01:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 20:19:40.734 +01:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 20:19:40.736 +01:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 20:19:40.739 +01:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-13 20:19:40.741 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-12-13 20:19:40.746 +01:00 [DBG] No information found on request to perform content negotiation.
+2020-12-13 20:19:40.748 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-12-13 20:19:40.749 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-12-13 20:19:40.751 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-12-13 20:19:40.752 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Covid19.Model.Movie, Covid19, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-12-13 20:19:40.767 +01:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-13 20:19:40.769 +01:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 20:19:40.772 +01:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 20:19:40.779 +01:00 [INF] Executed action Covid19.Controllers.MovieController.GetAll (Covid19) in 1193.8584ms
+2020-12-13 20:19:40.781 +01:00 [INF] Executed endpoint 'Covid19.Controllers.MovieController.GetAll (Covid19)'
+2020-12-13 20:19:40.782 +01:00 [INF] HTTP GET /api/movie responded 200 in 1279.2436 ms
+2020-12-13 20:19:40.784 +01:00 [DBG] Connection id "0HM4VJFP42FEG" completed keep alive response.
+2020-12-13 20:19:40.789 +01:00 [DBG] 'DpDataContext' disposed.
+2020-12-13 20:19:40.793 +01:00 [INF] Request finished in 1293.8892ms 200 application/json; charset=utf-8
+2020-12-13 20:19:46.469 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/movie  
+2020-12-13 20:19:46.471 +01:00 [VRB] All hosts are allowed.
+2020-12-13 20:19:46.473 +01:00 [DBG] 1 candidate(s) found for the request path '/api/movie'
+2020-12-13 20:19:46.485 +01:00 [DBG] Endpoint 'Covid19.Controllers.MovieController.GetAll (Covid19)' with route pattern 'api/Movie' is valid for the request path '/api/movie'
+2020-12-13 20:19:46.502 +01:00 [DBG] Request matched endpoint 'Covid19.Controllers.MovieController.GetAll (Covid19)'
+2020-12-13 20:19:46.503 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-13 20:19:46.505 +01:00 [INF] Executing endpoint 'Covid19.Controllers.MovieController.GetAll (Covid19)'
+2020-12-13 20:19:46.508 +01:00 [INF] Route matched with {action = "GetAll", controller = "Movie"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller Covid19.Controllers.MovieController (Covid19).
+2020-12-13 20:19:46.511 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-12-13 20:19:46.513 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-12-13 20:19:46.515 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-12-13 20:19:46.518 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-12-13 20:19:46.519 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-12-13 20:19:46.521 +01:00 [DBG] Executing controller factory for controller Covid19.Controllers.MovieController (Covid19)
+2020-12-13 20:19:46.523 +01:00 [DBG] Executed controller factory for controller Covid19.Controllers.MovieController (Covid19)
+2020-12-13 20:19:46.526 +01:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 20:19:46.529 +01:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 20:19:46.531 +01:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 20:19:46.532 +01:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 20:19:46.534 +01:00 [INF] Executing action method Covid19.Controllers.MovieController.GetAll (Covid19) - Validation state: "Valid"
+2020-12-13 20:19:46.561 +01:00 [INF] Entity Framework Core 3.1.8 initialized 'DpDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-12-13 20:19:46.564 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-12-13 20:19:46.565 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2020-12-13 20:19:46.566 +01:00 [DBG] Opening connection to database 'movies' on server 'tcp:dp104bierkat.database.windows.net,1433'.
+2020-12-13 20:19:46.568 +01:00 [DBG] Opened connection to database 'movies' on server 'tcp:dp104bierkat.database.windows.net,1433'.
+2020-12-13 20:19:46.569 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Description], [m].[Director], [m].[Duration], [m].[Genre], [m].[Premiere], [m].[Title]
+FROM [Movies] AS [m]
+2020-12-13 20:19:46.597 +01:00 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Description], [m].[Director], [m].[Duration], [m].[Genre], [m].[Premiere], [m].[Title]
+FROM [Movies] AS [m]
+2020-12-13 20:19:46.600 +01:00 [DBG] Context 'DpDataContext' started tracking 'Movie' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 20:19:46.602 +01:00 [DBG] A data reader was disposed.
+2020-12-13 20:19:46.605 +01:00 [DBG] Closing connection to database 'movies' on server 'tcp:dp104bierkat.database.windows.net,1433'.
+2020-12-13 20:19:46.607 +01:00 [DBG] Closed connection to database 'movies' on server 'tcp:dp104bierkat.database.windows.net,1433'.
+2020-12-13 20:19:46.610 +01:00 [INF] Executed action method Covid19.Controllers.MovieController.GetAll (Covid19), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 74.2916ms.
+2020-12-13 20:19:46.612 +01:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 20:19:46.614 +01:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 20:19:46.616 +01:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 20:19:46.618 +01:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 20:19:46.622 +01:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 20:19:46.624 +01:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 20:19:46.626 +01:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-13 20:19:46.628 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-12-13 20:19:46.631 +01:00 [DBG] No information found on request to perform content negotiation.
+2020-12-13 20:19:46.632 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-12-13 20:19:46.636 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-12-13 20:19:46.638 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-12-13 20:19:46.640 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Covid19.Model.Movie, Covid19, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-12-13 20:19:46.642 +01:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-13 20:19:46.644 +01:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 20:19:46.646 +01:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 20:19:46.648 +01:00 [INF] Executed action Covid19.Controllers.MovieController.GetAll (Covid19) in 127.0763ms
+2020-12-13 20:19:46.649 +01:00 [INF] Executed endpoint 'Covid19.Controllers.MovieController.GetAll (Covid19)'
+2020-12-13 20:19:46.653 +01:00 [INF] HTTP GET /api/movie responded 200 in 179.9427 ms
+2020-12-13 20:19:46.654 +01:00 [DBG] Connection id "0HM4VJFP42FEG" completed keep alive response.
+2020-12-13 20:19:46.655 +01:00 [DBG] 'DpDataContext' disposed.
+2020-12-13 20:19:46.657 +01:00 [INF] Request finished in 188.4901ms 200 application/json; charset=utf-8
+2020-12-13 20:19:57.953 +01:00 [INF] Application is shutting down...
+2020-12-13 20:19:57.953 +01:00 [DBG] Hosting stopping
+2020-12-13 20:19:57.961 +01:00 [DBG] Connection id "0HM4VJFP42FEG" disconnecting.
+2020-12-13 20:19:57.965 +01:00 [DBG] Connection id "0HM4VJFP42FEG" stopped.
+2020-12-13 20:19:57.966 +01:00 [DBG] Connection id "0HM4VJFP42FEG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-12-13 20:19:57.970 +01:00 [DBG] Hosting stopped

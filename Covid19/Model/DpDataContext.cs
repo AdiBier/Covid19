@@ -12,6 +12,6 @@ namespace Covid19.Model
         {
 
         }
-        public DbSet<Patient> Patients { get; set; }
+        public DbSet<Movie> Movies { get; set; }
     }
 }

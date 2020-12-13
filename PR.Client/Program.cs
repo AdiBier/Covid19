@@ -45,13 +45,13 @@ namespace PR.Client
 
                     HttpClient client = new HttpClient();
 
-                    /*var app = PublicClientApplicationBuilder.Create("16e7c4dc-393f-4a7a-84f0-3c711e5addb1")
+                    var app = PublicClientApplicationBuilder.Create("16e7c4dc-393f-4a7a-84f0-3c711e5addb1")
                         .WithAuthority("https://login.microsoftonline.com/52a0b183-1f44-4c78-9f64-a9eef2f29a8e/oauth2/v2.0/")
                         .WithDefaultRedirectUri()
                         .Build();
-                    // to change links
+                    
 
-                    var result = await app.AcquireTokenWithDeviceCode(new[] { "api://16e7c4dc-393f-4a7a-84f0-3c711e5addb1/.default" },
+/*                    var result = await app.AcquireTokenWithDeviceCode(new[] { "api://16e7c4dc-393f-4a7a-84f0-3c711e5addb1/.default" },
                         async r =>
                         {
                             Console.WriteLine(r.Message);

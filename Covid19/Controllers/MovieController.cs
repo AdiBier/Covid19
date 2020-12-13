@@ -14,45 +14,38 @@ namespace Covid19.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class PatientsController : ControllerBase
+    public class MovieController : ControllerBase
     {
         private readonly DpDataContext _context;
         private readonly ServiceBusSender _sender;
 
-        public PatientsController(DpDataContext context, ServiceBusSender sender)
+        public MovieController(DpDataContext context, ServiceBusSender sender)
         {
             _context = context;
             _sender = sender;
-        }
-
-        [HttpPut]
-        [AllowAnonymous]
-        public IActionResult InvalidAction()
-        {
-            throw new InvalidOperationException("Symulacja błędu aplikacji");
         }
 
         [HttpGet]
         [AllowAnonymous]
         public IActionResult GetAll()
         {
-            return Ok(_context.Patients.ToList());
+            return Ok(_context.Movies.ToList());
         }
 
         [HttpPost]
         [Authorize]
-        public async Task<IActionResult> RegisterPatient(Patient patient)
+        public async Task<IActionResult> AddNewMovie(Movie movie)
         {
-            _context.Patients.Add(patient);
+            _context.Movies.Add(movie);
             _context.SaveChanges();
 
             await _sender.SendMessage(new MessagePayLoad()
             {
-                EventName = "NewUserRegistered",
-                UserEmail = "notifications2k19@gmail.com"
+                EventName = "NewMovies",
+                UserEmail = "noveMovies2k20@gmail.com"
             });
 
-            return Created("/api/patients/", patient);
+            return Created("/api/movies/", movie);
         }
     }
 }

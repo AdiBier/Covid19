@@ -38,3 +38,213 @@
 2020-11-25 20:57:48.661 +01:00 [INF] Hosting environment: Development
 2020-11-25 20:57:48.664 +01:00 [INF] Content root path: E:\Workspace studia project\Covid19\Covid19
 2020-11-25 20:57:48.671 +01:00 [DBG] Hosting started
+2020-11-25 21:04:15.057 +01:00 [DBG] Hosting starting
+2020-11-25 21:04:15.198 +01:00 [INF] User profile is available. Using 'C:\Users\AdiBi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-11-25 21:04:15.214 +01:00 [DBG] Reading data from file 'C:\Users\AdiBi\AppData\Local\ASP.NET\DataProtection-Keys\key-245fc737-bc74-418c-bb9a-c778f01d16bc.xml'.
+2020-11-25 21:04:15.233 +01:00 [DBG] Found key {245fc737-bc74-418c-bb9a-c778f01d16bc}.
+2020-11-25 21:04:15.246 +01:00 [DBG] Considering key {245fc737-bc74-418c-bb9a-c778f01d16bc} with expiration date 2021-02-13 12:22:27Z as default key.
+2020-11-25 21:04:15.257 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-11-25 21:04:15.260 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2020-11-25 21:04:15.261 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-11-25 21:04:15.265 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2020-11-25 21:04:15.269 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2020-11-25 21:04:15.277 +01:00 [DBG] Using key {245fc737-bc74-418c-bb9a-c778f01d16bc} as the default key.
+2020-11-25 21:04:15.278 +01:00 [DBG] Key ring with default key {245fc737-bc74-418c-bb9a-c778f01d16bc} was loaded during application startup.
+2020-11-25 21:04:15.599 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-11-25 21:04:15.635 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 921B02348E6AA4AA53039D42CCD5B03F51B9EC52)
+2020-11-25 21:04:15.648 +01:00 [INF] Now listening on: https://localhost:5001
+2020-11-25 21:04:15.649 +01:00 [DBG] Loaded hosting startup assembly Covid19
+2020-11-25 21:04:15.650 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-11-25 21:04:15.651 +01:00 [INF] Hosting environment: Development
+2020-11-25 21:04:15.651 +01:00 [INF] Content root path: E:\Workspace studia project\Covid19\Covid19
+2020-11-25 21:04:15.653 +01:00 [DBG] Hosting started
+2020-11-25 21:04:34.043 +01:00 [DBG] Connection id "0HM4HFLA15UK4" accepted.
+2020-11-25 21:04:34.045 +01:00 [DBG] Connection id "0HM4HFLA15UK4" started.
+2020-11-25 21:04:34.179 +01:00 [INF] Request starting HTTP/1.1 PUT https://localhost:5001/api/patients application/json; charset=utf-8 7
+2020-11-25 21:04:34.184 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-11-25 21:04:34.185 +01:00 [VRB] All hosts are allowed.
+2020-11-25 21:04:34.228 +01:00 [DBG] 1 candidate(s) found for the request path '/api/patients'
+2020-11-25 21:04:34.232 +01:00 [DBG] Endpoint 'Covid19.Controllers.PatientsController.InvalidAction (Covid19)' with route pattern 'api/Patients' is valid for the request path '/api/patients'
+2020-11-25 21:04:34.234 +01:00 [DBG] Request matched endpoint 'Covid19.Controllers.PatientsController.InvalidAction (Covid19)'
+2020-11-25 21:04:34.461 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-11-25 21:04:34.464 +01:00 [INF] Executing endpoint 'Covid19.Controllers.PatientsController.InvalidAction (Covid19)'
+2020-11-25 21:04:34.476 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2020-11-25 21:04:34.545 +01:00 [INF] Route matched with {action = "InvalidAction", controller = "Patients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult InvalidAction() on controller Covid19.Controllers.PatientsController (Covid19).
+2020-11-25 21:04:34.549 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-11-25 21:04:34.551 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-11-25 21:04:34.553 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-11-25 21:04:34.557 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-11-25 21:04:34.559 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-11-25 21:04:34.561 +01:00 [DBG] Executing controller factory for controller Covid19.Controllers.PatientsController (Covid19)
+2020-11-25 21:04:34.816 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2020-11-25 21:04:34.951 +01:00 [DBG] Executed controller factory for controller Covid19.Controllers.PatientsController (Covid19)
+2020-11-25 21:04:34.955 +01:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-11-25 21:04:34.957 +01:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-11-25 21:04:34.959 +01:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-11-25 21:04:34.961 +01:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-11-25 21:04:34.968 +01:00 [INF] Executing action method Covid19.Controllers.PatientsController.InvalidAction (Covid19) - Validation state: "Valid"
+2020-11-25 21:04:34.973 +01:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-11-25 21:04:34.976 +01:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-11-25 21:04:34.978 +01:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-11-25 21:04:34.980 +01:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-11-25 21:04:34.987 +01:00 [INF] Executed action Covid19.Controllers.PatientsController.InvalidAction (Covid19) in 422.182ms
+2020-11-25 21:04:34.991 +01:00 [INF] Executed endpoint 'Covid19.Controllers.PatientsController.InvalidAction (Covid19)'
+2020-11-25 21:04:34.994 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Symulacja błędu aplikacji
+   at Covid19.Controllers.PatientsController.InvalidAction() in E:\Workspace studia project\Covid19\Covid19\Controllers\PatientsController.cs:line 32
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-11-25 21:04:35.116 +01:00 [ERR] HTTP PUT /api/patients responded 500 in 926.2999 ms
+2020-11-25 21:04:35.118 +01:00 [DBG] Connection id "0HM4HFLA15UK4" completed keep alive response.
+2020-11-25 21:04:35.122 +01:00 [INF] Request finished in 947.4724ms 500 text/plain
+2020-11-25 21:04:35.175 +01:00 [DBG] Connection id "0HM4HFLA15UK4", Request id "0HM4HFLA15UK4:00000001": started reading request body.
+2020-11-25 21:04:35.176 +01:00 [DBG] Connection id "0HM4HFLA15UK4", Request id "0HM4HFLA15UK4:00000001": done reading request body.
+2020-11-25 21:06:35.623 +01:00 [DBG] Connection id "0HM4HFLA15UK4" disconnecting.
+2020-11-25 21:06:35.629 +01:00 [DBG] Connection id "0HM4HFLA15UK4" stopped.
+2020-11-25 21:06:35.637 +01:00 [DBG] Connection id "0HM4HFLA15UK4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-11-25 21:21:57.140 +01:00 [DBG] Connection id "0HM4HFLA15UK5" accepted.
+2020-11-25 21:21:57.143 +01:00 [DBG] Connection id "0HM4HFLA15UK5" started.
+2020-11-25 21:21:57.154 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/patients  
+2020-11-25 21:21:57.157 +01:00 [VRB] All hosts are allowed.
+2020-11-25 21:21:57.160 +01:00 [DBG] 1 candidate(s) found for the request path '/api/patients'
+2020-11-25 21:21:57.162 +01:00 [DBG] Endpoint 'Covid19.Controllers.PatientsController.GetAll (Covid19)' with route pattern 'api/Patients' is valid for the request path '/api/patients'
+2020-11-25 21:21:57.166 +01:00 [DBG] Request matched endpoint 'Covid19.Controllers.PatientsController.GetAll (Covid19)'
+2020-11-25 21:21:57.168 +01:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-11-25 21:21:57.169 +01:00 [INF] Executing endpoint 'Covid19.Controllers.PatientsController.GetAll (Covid19)'
+2020-11-25 21:21:57.174 +01:00 [INF] Route matched with {action = "GetAll", controller = "Patients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller Covid19.Controllers.PatientsController (Covid19).
+2020-11-25 21:21:57.178 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-11-25 21:21:57.180 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-11-25 21:21:57.182 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-11-25 21:21:57.185 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-11-25 21:21:57.186 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-11-25 21:21:57.189 +01:00 [DBG] Executing controller factory for controller Covid19.Controllers.PatientsController (Covid19)
+2020-11-25 21:21:57.191 +01:00 [DBG] Executed controller factory for controller Covid19.Controllers.PatientsController (Covid19)
+2020-11-25 21:21:57.193 +01:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-11-25 21:21:57.195 +01:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-11-25 21:21:57.197 +01:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-11-25 21:21:57.199 +01:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-11-25 21:21:57.200 +01:00 [INF] Executing action method Covid19.Controllers.PatientsController.GetAll (Covid19) - Validation state: "Valid"
+2020-11-25 21:21:57.693 +01:00 [INF] Entity Framework Core 3.1.8 initialized 'DpDataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-11-25 21:21:57.840 +01:00 [DBG] queryContext => new QueryingEnumerable<Patient>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, Patient>, 
+    Covid19.Model.DpDataContext, 
+    null
+)
+2020-11-25 21:21:57.873 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-11-25 21:21:58.023 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (147ms).
+2020-11-25 21:21:58.029 +01:00 [DBG] Opening connection to database 'dp104' on server 'tcp:dp104bierkat.database.windows.net,1433'.
+2020-11-25 21:22:28.217 +01:00 [ERR] An error occurred using the connection to database 'dp104' on server 'tcp:dp104bierkat.database.windows.net,1433'.
+2020-11-25 21:22:28.229 +01:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Covid19.Model.DpDataContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=375; handshake=151; [Login] initialization=3; authentication=6; [Post-Login] complete=29586; 
+ ---> System.ComponentModel.Win32Exception (258): Upłynął limit czasu operacji oczekiwania.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:462ba80f-d25f-4f2b-b606-e0cea27a51af
+Error Number:-2,State:0,Class:11
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=375; handshake=151; [Login] initialization=3; authentication=6; [Post-Login] complete=29586; 
+ ---> System.ComponentModel.Win32Exception (258): Upłynął limit czasu operacji oczekiwania.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:462ba80f-d25f-4f2b-b606-e0cea27a51af
+Error Number:-2,State:0,Class:11
+2020-11-25 21:22:28.259 +01:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-11-25 21:22:28.261 +01:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-11-25 21:22:28.265 +01:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-11-25 21:22:28.267 +01:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-11-25 21:22:28.269 +01:00 [INF] Executed action Covid19.Controllers.PatientsController.GetAll (Covid19) in 31080.4795ms
+2020-11-25 21:22:28.272 +01:00 [INF] Executed endpoint 'Covid19.Controllers.PatientsController.GetAll (Covid19)'
+2020-11-25 21:22:28.273 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=375; handshake=151; [Login] initialization=3; authentication=6; [Post-Login] complete=29586; 
+ ---> System.ComponentModel.Win32Exception (258): Upłynął limit czasu operacji oczekiwania.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Covid19.Controllers.PatientsController.GetAll() in E:\Workspace studia project\Covid19\Covid19\Controllers\PatientsController.cs:line 39
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:462ba80f-d25f-4f2b-b606-e0cea27a51af
+Error Number:-2,State:0,Class:11
+2020-11-25 21:22:28.317 +01:00 [ERR] HTTP GET /api/patients responded 500 in 31157.6039 ms
+2020-11-25 21:22:28.319 +01:00 [DBG] Connection id "0HM4HFLA15UK5" completed keep alive response.
+2020-11-25 21:22:28.323 +01:00 [DBG] 'DpDataContext' disposed.
+2020-11-25 21:22:28.329 +01:00 [INF] Request finished in 31174.7139ms 500 text/plain
+2020-11-25 21:22:29.538 +01:00 [DBG] Connection id "0HM4HFLA15UK5" reset.
+2020-11-25 21:22:29.542 +01:00 [DBG] Connection id "0HM4HFLA15UK5" sending FIN because: "The client closed the connection."
+2020-11-25 21:22:29.545 +01:00 [DBG] Connection id "0HM4HFLA15UK5" disconnecting.
+2020-11-25 21:22:29.547 +01:00 [DBG] Connection id "0HM4HFLA15UK5" stopped.
+2020-11-25 21:38:00.285 +01:00 [INF] Application is shutting down...
+2020-11-25 21:38:00.287 +01:00 [DBG] Hosting stopping
+2020-11-25 21:38:00.292 +01:00 [DBG] Hosting stopped
